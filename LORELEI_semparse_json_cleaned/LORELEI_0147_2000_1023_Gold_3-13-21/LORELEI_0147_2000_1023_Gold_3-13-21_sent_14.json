@@ -1,0 +1,593 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 7,
+            "text": "And how much of South Korea as you",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.7-1-1",
+            "start": 8,
+            "end": 8,
+            "text": "mentioned",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 9,
+            "end": 9,
+            "text": "is",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "47.8",
+            "start": 10,
+            "end": 10,
+            "text": "bordering",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 11,
+            "end": 13,
+            "text": "on euphoria ,",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "13.5.1-1",
+            "start": 14,
+            "end": 14,
+            "text": "get",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 15,
+            "end": 22,
+            "text": "this new relationship with Pyongyang and at the",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 3,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "36.3-1",
+            "start": 23,
+            "end": 23,
+            "text": "visit",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 24,
+            "end": 24,
+            "text": "by Secretary of State Albright .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "say-37.7-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=say-37.7-1-1)), Agent(A0[you]), Topic(?)]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "you",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=say-37.7-1-1)), EVENT(e1 = VnClassXml(verbNetId=say-37.7-1-1)), EVENT(e2 = VnClassXml(verbNetId=say-37.7-1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Transfer Info[EVENT(e1 = VnClassXml(verbNetId=say-37.7-1-1)), Agent(A0[you]), Topic(?), Recipient(?)]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "you",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Information[EVENT(e2 = VnClassXml(verbNetId=say-37.7-1-1)), Recipient(?), Topic(?)]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> speaker",
+                    "start": 7,
+                    "end": 7,
+                    "text": "you",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "speaker",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 8,
+                    "end": 8,
+                    "text": "mentioned",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "contiguous_location-47.8",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Contact[EVENT(E = VnClassXml(verbNetId=contiguous_location-47.8)), Theme(A1[how much of South Korea]), Co Theme(A2[on euphoria])]",
+                        "predicateType": "Contact",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "how much of South Korea",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Co Theme",
+                                "value": "on euphoria",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing on the edge",
+                    "start": 1,
+                    "end": 5,
+                    "text": "how much of South Korea",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing on the edge",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-ADV",
+                    "start": 6,
+                    "end": 8,
+                    "text": "as you mentioned",
+                    "pb": "AM-ADV",
+                    "vn": "",
+                    "description": "adverbial",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 10,
+                    "end": 10,
+                    "text": "bordering",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Co Theme <-> on the edge of what",
+                    "start": 11,
+                    "end": 12,
+                    "text": "on euphoria",
+                    "pb": "A2",
+                    "vn": "Co Theme",
+                    "description": "on the edge of what",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "get-13.5.1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=get-13.5.1-1)), EVENT(e2 = VnClassXml(verbNetId=get-13.5.1-1)), EVENT(e3 = VnClassXml(verbNetId=get-13.5.1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Possession[EVENT(e1 = VnClassXml(verbNetId=get-13.5.1-1)), Source(?), Theme(A1[this new relationship with Pyongyang])]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Source",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "this new relationship with Pyongyang",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        },
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Has Possession[EVENT(e1 = VnClassXml(verbNetId=get-13.5.1-1)), Agent(?), Theme(A1[this new relationship with Pyongyang])]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "this new relationship with Pyongyang",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Transfer[EVENT(e2 = VnClassXml(verbNetId=get-13.5.1-1)), Agent(?), Theme(A1[this new relationship with Pyongyang]), Source(?)]",
+                            "predicateType": "Transfer",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "this new relationship with Pyongyang",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Source",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has Possession[EVENT(e3 = VnClassXml(verbNetId=get-13.5.1-1)), Agent(?), Theme(A1[this new relationship with Pyongyang])]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "this new relationship with Pyongyang",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        },
+                        {
+                            "eventName": "e3",
+                            "predicate": "!Has Possession[EVENT(e3 = VnClassXml(verbNetId=get-13.5.1-1)), Source(?), Theme(A1[this new relationship with Pyongyang])]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Source",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "this new relationship with Pyongyang",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 14,
+                    "end": 14,
+                    "text": "get",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing gotten",
+                    "start": 15,
+                    "end": 19,
+                    "text": "this new relationship with Pyongyang",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing gotten",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "meet-36.3-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Social Interaction[EVENT(e1 = VnClassXml(verbNetId=meet-36.3-1)), Agent(A0[by Secretary of State Albright]), Co Agent(?)]",
+                            "predicateType": "Social Interaction",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "by Secretary of State Albright",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Co Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 23,
+                    "end": 23,
+                    "text": "visit",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> visitor",
+                    "start": 24,
+                    "end": 28,
+                    "text": "by Secretary of State Albright",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "visitor",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

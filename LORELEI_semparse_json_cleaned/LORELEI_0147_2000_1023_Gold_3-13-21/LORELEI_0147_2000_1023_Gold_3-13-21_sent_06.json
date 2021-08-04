@@ -1,0 +1,488 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 2,
+            "text": "Kong Dan Oh",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 3,
+            "end": 3,
+            "text": "is",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 4,
+            "end": 9,
+            "text": "a Korean expert who has just",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "26.4-1",
+            "start": 10,
+            "end": 10,
+            "text": "written",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 11,
+            "end": 12,
+            "text": "a book",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "29.3.2",
+            "start": 13,
+            "end": 13,
+            "text": "called",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 14,
+            "end": 14,
+            "text": "North Korea through the looking glass .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[Kong Dan Oh]), Attribute(A2[a Korean expert who has just written a book called North Korea through the looking glass])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "Kong Dan Oh",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "a Korean expert who has just written a book called North Korea through the looking glass",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 0,
+                    "end": 2,
+                    "text": "Kong Dan Oh",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 3,
+                    "end": 3,
+                    "text": "is",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 4,
+                    "end": 19,
+                    "text": "a Korean expert who has just written a book called North Korea through the looking glass",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "create-26.4-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Be[EVENT(e1 = VnClassXml(verbNetId=create-26.4-1)), Result(?)]",
+                            "predicateType": "Be",
+                            "args": [
+                                {
+                                    "type": "Result",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Do[EVENT(e2 = VnClassXml(verbNetId=create-26.4-1)), Agent(A0[a Korean expert])]",
+                            "predicateType": "Do",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "a Korean expert",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Be[EVENT(e3 = VnClassXml(verbNetId=create-26.4-1)), Result(?)]",
+                            "predicateType": "Be",
+                            "args": [
+                                {
+                                    "type": "Result",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        },
+                        {
+                            "eventName": "e3",
+                            "predicate": "Cause[None(?), EVENT(e3 = VnClassXml(verbNetId=create-26.4-1))]",
+                            "predicateType": "Cause",
+                            "args": [
+                                {
+                                    "type": "None",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> writer",
+                    "start": 4,
+                    "end": 6,
+                    "text": "a Korean expert",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "writer",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "R-A0 <-> Agent <-> writer",
+                    "start": 7,
+                    "end": 7,
+                    "text": "who",
+                    "pb": "R-A0",
+                    "vn": "Agent",
+                    "description": "writer",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 9,
+                    "end": 9,
+                    "text": "just",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 10,
+                    "end": 10,
+                    "text": "written",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> thing written",
+                    "start": 11,
+                    "end": 15,
+                    "text": "a book called North Korea",
+                    "pb": "A1",
+                    "vn": "",
+                    "description": "thing written",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-MNR",
+                    "start": 16,
+                    "end": 19,
+                    "text": "through the looking glass",
+                    "pb": "AM-MNR",
+                    "vn": "",
+                    "description": "manner",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        },
+        {
+            "sense": "dub-29.3.2",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=dub-29.3.2)), EVENT(e2 = VnClassXml(verbNetId=dub-29.3.2)), EVENT(e3 = VnClassXml(verbNetId=dub-29.3.2))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Designated[EVENT(e1 = VnClassXml(verbNetId=dub-29.3.2)), Theme(A1[a book]), Result(A2[North Korea])]",
+                            "predicateType": "Designated",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "a book",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Result",
+                                    "value": "North Korea",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Do[EVENT(e2 = VnClassXml(verbNetId=dub-29.3.2)), Agent(?)]",
+                            "predicateType": "Do",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Designated[EVENT(e3 = VnClassXml(verbNetId=dub-29.3.2)), Theme(A1[a book]), Result(A2[North Korea])]",
+                            "predicateType": "Designated",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "a book",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Result",
+                                    "value": "North Korea",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> item being labelled",
+                    "start": 11,
+                    "end": 12,
+                    "text": "a book",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "item being labelled",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 13,
+                    "end": 13,
+                    "text": "called",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Result <-> name itself, attribute of arg1",
+                    "start": 14,
+                    "end": 15,
+                    "text": "North Korea",
+                    "pb": "A2",
+                    "vn": "Result",
+                    "description": "name itself, attribute of arg1",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

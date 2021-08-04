@@ -1,0 +1,403 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 3,
+            "text": "Well , when I",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "30.3",
+            "start": 4,
+            "end": 4,
+            "text": "look",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 5,
+            "end": 15,
+            "text": "at about six major daily newspapers , basically the top news",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 16,
+            "end": 16,
+            "text": "was",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 17,
+            "end": 18,
+            "text": "Madeleine Albright",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "36.3-1",
+            "start": 19,
+            "end": 19,
+            "text": "meeting",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 20,
+            "end": 20,
+            "text": "with the chairman Kim Jong Il .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "peer-30.3",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "In Reaction To[EVENT(E = VnClassXml(verbNetId=peer-30.3)), Theme(A1[at about six major daily newspapers])]",
+                        "predicateType": "In Reaction To",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "at about six major daily newspapers",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Perceive[EVENT(e1 = VnClassXml(verbNetId=peer-30.3)), Agent(A0[I]), Theme(A1[at about six major daily newspapers])]",
+                            "predicateType": "Perceive",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "I",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "at about six major daily newspapers",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 2,
+                    "end": 2,
+                    "text": "when",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> looker",
+                    "start": 3,
+                    "end": 3,
+                    "text": "I",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "looker",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 4,
+                    "end": 4,
+                    "text": "look",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing looked at or for or on",
+                    "start": 5,
+                    "end": 10,
+                    "text": "at about six major daily newspapers",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing looked at or for or on",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[the top news]), Attribute(A2[Madeleine Albright meeting with the chairman Kim Jong Il])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "the top news",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "Madeleine Albright meeting with the chairman Kim Jong Il",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-DIS",
+                    "start": 0,
+                    "end": 0,
+                    "text": "Well",
+                    "pb": "AM-DIS",
+                    "vn": "",
+                    "description": "discourse",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 2,
+                    "end": 10,
+                    "text": "when I look at about six major daily newspapers",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-ADV",
+                    "start": 12,
+                    "end": 12,
+                    "text": "basically",
+                    "pb": "AM-ADV",
+                    "vn": "",
+                    "description": "adverbial",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 13,
+                    "end": 15,
+                    "text": "the top news",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 16,
+                    "end": 16,
+                    "text": "was",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 17,
+                    "end": 25,
+                    "text": "Madeleine Albright meeting with the chairman Kim Jong Il",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "meet-36.3-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Social Interaction[EVENT(e1 = VnClassXml(verbNetId=meet-36.3-1)), Agent(A0[Madeleine Albright]), Co Agent(A1[with the chairman Kim Jong Il])]",
+                            "predicateType": "Social Interaction",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Madeleine Albright",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Co Agent",
+                                    "value": "with the chairman Kim Jong Il",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> meeter",
+                    "start": 17,
+                    "end": 18,
+                    "text": "Madeleine Albright",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "meeter",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 19,
+                    "end": 19,
+                    "text": "meeting",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Co Agent <-> person / entity / object being met",
+                    "start": 20,
+                    "end": 25,
+                    "text": "with the chairman Kim Jong Il",
+                    "pb": "A1",
+                    "vn": "Co Agent",
+                    "description": "person / entity / object being met",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

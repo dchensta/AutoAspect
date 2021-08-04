@@ -1,0 +1,122 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 0,
+            "text": "Pope",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 1,
+            "end": 1,
+            "text": "is",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 2,
+            "end": 2,
+            "text": "the American businessman who was convicted last week on spying charges and sentenced to 20 years in a Russian prison .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[Pope]), Attribute(A2[the American businessman who was convicted last week on spying charges and sentenced to 20 years in a Russian prison])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "Pope",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "the American businessman who was convicted last week on spying charges and sentenced to 20 years in a Russian prison",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 0,
+                    "end": 0,
+                    "text": "Pope",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 1,
+                    "end": 1,
+                    "text": "is",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 2,
+                    "end": 21,
+                    "text": "the American businessman who was convicted last week on spying charges and sentenced to 20 years in a Russian prison",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "modifier": false,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+

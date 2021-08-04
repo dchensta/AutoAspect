@@ -1,0 +1,615 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 2,
+            "text": "I do not",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "29.9-2",
+            "start": 3,
+            "end": 3,
+            "text": "think",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 4,
+            "end": 4,
+            "text": "anybody",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "87.2-1-1-1",
+            "start": 5,
+            "end": 5,
+            "text": "knows",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 6,
+            "end": 9,
+            "text": "and I do not",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "29.9-2",
+            "start": 10,
+            "end": 10,
+            "text": "think",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 11,
+            "end": 12,
+            "text": "anybody will",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 3,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "87.2-1-1-1",
+            "start": 13,
+            "end": 13,
+            "text": "know",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 14,
+            "end": 17,
+            "text": "until President Putin has",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 4,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.7-1",
+            "start": 18,
+            "end": 18,
+            "text": "responded",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 19,
+            "end": 19,
+            "text": ".",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "consider-29.9-2",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Consider[EVENT(E = VnClassXml(verbNetId=consider-29.9-2)), Agent(A0[I]), Theme(A1[anybody knows])]",
+                        "predicateType": "Consider",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "I",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Theme",
+                                "value": "anybody knows",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> Thinker",
+                    "start": 0,
+                    "end": 0,
+                    "text": "I",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "thinker",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-NEG",
+                    "start": 2,
+                    "end": 2,
+                    "text": "not",
+                    "pb": "AM-NEG",
+                    "vn": "",
+                    "description": "negation",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 3,
+                    "end": 3,
+                    "text": "think",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> Thought",
+                    "start": 4,
+                    "end": 5,
+                    "text": "anybody knows",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thought",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "comprehend-87.2-1-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Understand[EVENT(E = VnClassXml(verbNetId=comprehend-87.2-1-1-1)), Experiencer(A0[anybody]), Stimulus(?)]",
+                        "predicateType": "Understand",
+                        "args": [
+                            {
+                                "type": "Experiencer",
+                                "value": "anybody",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Stimulus",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Experiencer <-> knower",
+                    "start": 4,
+                    "end": 4,
+                    "text": "anybody",
+                    "pb": "A0",
+                    "vn": "Experiencer",
+                    "description": "knower",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 5,
+                    "end": 5,
+                    "text": "knows",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "consider-29.9-2",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Consider[EVENT(E = VnClassXml(verbNetId=consider-29.9-2)), Agent(A0[I]), Theme(A1[anybody will know until President Putin has responded])]",
+                        "predicateType": "Consider",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "I",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Theme",
+                                "value": "anybody will know until President Putin has responded",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> Thinker",
+                    "start": 7,
+                    "end": 7,
+                    "text": "I",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "thinker",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-NEG",
+                    "start": 9,
+                    "end": 9,
+                    "text": "not",
+                    "pb": "AM-NEG",
+                    "vn": "",
+                    "description": "negation",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 10,
+                    "end": 10,
+                    "text": "think",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> Thought",
+                    "start": 11,
+                    "end": 18,
+                    "text": "anybody will know until President Putin has responded",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thought",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "comprehend-87.2-1-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Understand[EVENT(E = VnClassXml(verbNetId=comprehend-87.2-1-1-1)), Experiencer(A0[anybody]), Stimulus(?)]",
+                        "predicateType": "Understand",
+                        "args": [
+                            {
+                                "type": "Experiencer",
+                                "value": "anybody",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Stimulus",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Experiencer <-> knower",
+                    "start": 11,
+                    "end": 11,
+                    "text": "anybody",
+                    "pb": "A0",
+                    "vn": "Experiencer",
+                    "description": "knower",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-MOD",
+                    "start": 12,
+                    "end": 12,
+                    "text": "will",
+                    "pb": "AM-MOD",
+                    "vn": "",
+                    "description": "modal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 13,
+                    "end": 13,
+                    "text": "know",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 14,
+                    "end": 18,
+                    "text": "until President Putin has responded",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        },
+        {
+            "sense": "say-37.7-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=say-37.7-1)), Agent(A0[President Putin]), Topic(?)]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "President Putin",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=say-37.7-1)), EVENT(e1 = VnClassXml(verbNetId=say-37.7-1)), EVENT(e2 = VnClassXml(verbNetId=say-37.7-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Transfer Info[EVENT(e1 = VnClassXml(verbNetId=say-37.7-1)), Agent(A0[President Putin]), Topic(?), Recipient(?)]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "President Putin",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Information[EVENT(e2 = VnClassXml(verbNetId=say-37.7-1)), Recipient(?), Topic(?)]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> replier",
+                    "start": 15,
+                    "end": 16,
+                    "text": "President Putin",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "replier",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 18,
+                    "end": 18,
+                    "text": "responded",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

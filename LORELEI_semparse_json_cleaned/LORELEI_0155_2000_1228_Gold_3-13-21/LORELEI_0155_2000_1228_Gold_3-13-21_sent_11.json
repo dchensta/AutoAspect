@@ -1,0 +1,568 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "Negotiators have",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "61.1",
+            "start": 2,
+            "end": 2,
+            "text": "tried",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 3,
+            "text": "to",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "64.3-1",
+            "start": 4,
+            "end": 4,
+            "text": "include",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 5,
+            "end": 9,
+            "text": "safeguards in the treaty to",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "25.3",
+            "start": 10,
+            "end": 10,
+            "text": "address",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 11,
+            "end": 14,
+            "text": "those fears , but",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 3,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "55.4-1-1",
+            "start": 15,
+            "end": 15,
+            "text": "stop",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 16,
+            "end": 16,
+            "text": "short of exempting US personnel from prosecution .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "try-61.1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Attempt[EVENT(e1 = VnClassXml(verbNetId=try-61.1)), Agent(A0[Negotiators]), Theme(A1[to include safeguards in the treaty to address those fears])]",
+                            "predicateType": "Attempt",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Negotiators",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "to include safeguards in the treaty to address those fears",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> Agent/Entity Trying",
+                    "start": 0,
+                    "end": 0,
+                    "text": "Negotiators",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "agent/entity trying",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "tried",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing tried",
+                    "start": 3,
+                    "end": 12,
+                    "text": "to include safeguards in the treaty to address those fears",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing tried",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "admit-64.3-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Admit[EVENT(e1 = VnClassXml(verbNetId=admit-64.3-1)), Agent(A0[Negotiators]), Theme(A1[safeguards]), Location(A2[in the treaty])]",
+                            "predicateType": "Admit",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Negotiators",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "safeguards",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Location",
+                                    "value": "in the treaty",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent",
+                    "start": 0,
+                    "end": 0,
+                    "text": "Negotiators",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 4,
+                    "end": 4,
+                    "text": "include",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme",
+                    "start": 5,
+                    "end": 5,
+                    "text": "safeguards",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Location",
+                    "start": 6,
+                    "end": 8,
+                    "text": "in the treaty",
+                    "pb": "A2",
+                    "vn": "Location",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-PRP",
+                    "start": 9,
+                    "end": 12,
+                    "text": "to address those fears",
+                    "pb": "AM-PRP",
+                    "vn": "",
+                    "description": "purpose",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        },
+        {
+            "sense": "illustrate-25.3",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=illustrate-25.3)), EVENT(e2 = VnClassXml(verbNetId=illustrate-25.3)), EVENT(e3 = VnClassXml(verbNetId=illustrate-25.3))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Be[EVENT(e1 = VnClassXml(verbNetId=illustrate-25.3)), Theme(?)]",
+                            "predicateType": "Be",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Create Image[EVENT(e2 = VnClassXml(verbNetId=illustrate-25.3)), Agent(?), Theme(?)]",
+                            "predicateType": "Create Image",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Be[EVENT(e3 = VnClassXml(verbNetId=illustrate-25.3)), Theme(?)]",
+                            "predicateType": "Be",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        },
+                        {
+                            "eventName": "e3",
+                            "predicate": "Part Of[EVENT(e3 = VnClassXml(verbNetId=illustrate-25.3)), Theme(?), Destination(A1[those fears])]",
+                            "predicateType": "Part Of",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Destination",
+                                    "value": "those fears",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 10,
+                    "end": 10,
+                    "text": "address",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Destination <-> item being addressed (letter, speech, etc)",
+                    "start": 11,
+                    "end": 12,
+                    "text": "those fears",
+                    "pb": "A1",
+                    "vn": "Destination",
+                    "description": "item being addressed (letter, speech, etc)",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "stop-55.4-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=stop-55.4-1-1)), EVENT(e2 = VnClassXml(verbNetId=stop-55.4-1-1)), EVENT(e1 = VnClassXml(verbNetId=stop-55.4-1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "End[EVENT(E = VnClassXml(verbNetId=stop-55.4-1-1)), Theme(?)]",
+                        "predicateType": "End",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Do[EVENT(e1 = VnClassXml(verbNetId=stop-55.4-1-1)), Agent(A0[Negotiators])]",
+                            "predicateType": "Do",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Negotiators",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent",
+                    "start": 0,
+                    "end": 0,
+                    "text": "Negotiators",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 15,
+                    "end": 15,
+                    "text": "stop",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2",
+                    "start": 16,
+                    "end": 22,
+                    "text": "short of exempting US personnel from prosecution",
+                    "pb": "A2",
+                    "vn": "",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

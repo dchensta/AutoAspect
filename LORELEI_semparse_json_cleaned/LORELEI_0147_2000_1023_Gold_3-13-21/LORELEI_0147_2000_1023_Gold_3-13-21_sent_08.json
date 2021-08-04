@@ -1,0 +1,308 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 0,
+            "text": "We",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "87.2-1-1-1",
+            "start": 1,
+            "end": 1,
+            "text": "know",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 2,
+            "end": 5,
+            "text": "that the visit is",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "51.8",
+            "start": 6,
+            "end": 6,
+            "text": "making",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 7,
+            "end": 7,
+            "text": "big news there in Seoul .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "comprehend-87.2-1-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Understand[EVENT(E = VnClassXml(verbNetId=comprehend-87.2-1-1-1)), Experiencer(A0[We]), Stimulus(A1[that the visit is making big news there in Seoul])]",
+                        "predicateType": "Understand",
+                        "args": [
+                            {
+                                "type": "Experiencer",
+                                "value": "We",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Stimulus",
+                                "value": "that the visit is making big news there in Seoul",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Experiencer <-> knower",
+                    "start": 0,
+                    "end": 0,
+                    "text": "We",
+                    "pb": "A0",
+                    "vn": "Experiencer",
+                    "description": "knower",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 1,
+                    "end": 1,
+                    "text": "know",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Stimulus <-> fact that is known",
+                    "start": 2,
+                    "end": 11,
+                    "text": "that the visit is making big news there in Seoul",
+                    "pb": "A1",
+                    "vn": "Stimulus",
+                    "description": "fact that is known",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "reach-51.8",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Location[EVENT(e1 = VnClassXml(verbNetId=reach-51.8)), Theme(A0[the visit]), Verbspecific(Initial_Location)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the visit",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Initial_Location",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "\u00eb2",
+                    "predicates": [
+                        {
+                            "eventName": "\u00eb2",
+                            "predicate": "Motion[EVENT(\u00eb2 = VnClassXml(verbNetId=reach-51.8)), Theme(A0[the visit]), Verbspecific(Trajectory)]",
+                            "predicateType": "Motion",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the visit",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Trajectory",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        },
+                        {
+                            "eventName": "\u00eb2",
+                            "predicate": "!Has Location[EVENT(\u00eb2 = VnClassXml(verbNetId=reach-51.8)), Theme(A0[the visit]), Verbspecific(Initial_Location)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the visit",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Initial_Location",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has Location[EVENT(e3 = VnClassXml(verbNetId=reach-51.8)), Theme(A0[the visit]), Goal(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the visit",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Goal",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Theme",
+                    "start": 3,
+                    "end": 4,
+                    "text": "the visit",
+                    "pb": "A0",
+                    "vn": "Theme",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 6,
+                    "end": 6,
+                    "text": "making",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1",
+                    "start": 7,
+                    "end": 8,
+                    "text": "big news",
+                    "pb": "A1",
+                    "vn": "",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-LOC",
+                    "start": 9,
+                    "end": 11,
+                    "text": "there in Seoul",
+                    "pb": "AM-LOC",
+                    "vn": "",
+                    "description": "location",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        }
+    ]
+}
+

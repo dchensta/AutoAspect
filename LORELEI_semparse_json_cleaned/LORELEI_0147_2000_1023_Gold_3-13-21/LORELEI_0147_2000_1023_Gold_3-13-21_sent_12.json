@@ -1,0 +1,530 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 9,
+            "text": "But at the same time , the reports are basically",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.1.1-1-1",
+            "start": 10,
+            "end": 10,
+            "text": "telling",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 11,
+            "end": 16,
+            "text": "the importance of these meetings that",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 17,
+            "end": 17,
+            "text": "is",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 18,
+            "end": 21,
+            "text": "that they have to",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.5",
+            "start": 22,
+            "end": 22,
+            "text": "talk",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 23,
+            "end": 23,
+            "text": "about the very critical security matter issues such as missile and nuke .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "transfer_mesg-37.1.1-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=transfer_mesg-37.1.1-1-1)), Agent(A0[the reports]), Topic(A1[the importance of these meetings that is that they have to talk about the very critical security matter issues such as missile and nuke])]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "the reports",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "the importance of these meetings that is that they have to talk about the very critical security matter issues such as missile and nuke",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=transfer_mesg-37.1.1-1-1)), EVENT(e1 = VnClassXml(verbNetId=transfer_mesg-37.1.1-1-1)), EVENT(e2 = VnClassXml(verbNetId=transfer_mesg-37.1.1-1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Transfer Info[EVENT(e1 = VnClassXml(verbNetId=transfer_mesg-37.1.1-1-1)), Agent(A0[the reports]), Topic(A1[the importance of these meetings that is that they have to talk about the very critical security matter issues such as missile and nuke]), Recipient(AM-TMP[at the same time])]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "the reports",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "the importance of these meetings that is that they have to talk about the very critical security matter issues such as missile and nuke",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "at the same time",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Information[EVENT(e2 = VnClassXml(verbNetId=transfer_mesg-37.1.1-1-1)), Recipient(AM-TMP[at the same time]), Topic(A1[the importance of these meetings that is that they have to talk about the very critical security matter issues such as missile and nuke])]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "at the same time",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "the importance of these meetings that is that they have to talk about the very critical security matter issues such as missile and nuke",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-DIS",
+                    "start": 0,
+                    "end": 0,
+                    "text": "But",
+                    "pb": "AM-DIS",
+                    "vn": "",
+                    "description": "discourse",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP <-> Recipient",
+                    "start": 1,
+                    "end": 4,
+                    "text": "at the same time",
+                    "pb": "AM-TMP",
+                    "vn": "Recipient",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> Speaker",
+                    "start": 6,
+                    "end": 7,
+                    "text": "the reports",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "speaker",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-ADV",
+                    "start": 9,
+                    "end": 9,
+                    "text": "basically",
+                    "pb": "AM-ADV",
+                    "vn": "",
+                    "description": "adverbial",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 10,
+                    "end": 10,
+                    "text": "telling",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Topic <-> Utterance",
+                    "start": 11,
+                    "end": 34,
+                    "text": "the importance of these meetings that is that they have to talk about the very critical security matter issues such as missile and nuke",
+                    "pb": "A1",
+                    "vn": "Topic",
+                    "description": "utterance",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[these meetings]), Attribute(A2[that they have to talk about the very critical security matter issues such as missile and nuke])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "these meetings",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "that they have to talk about the very critical security matter issues such as missile and nuke",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 14,
+                    "end": 15,
+                    "text": "these meetings",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "R-A1 <-> Theme <-> topic",
+                    "start": 16,
+                    "end": 16,
+                    "text": "that",
+                    "pb": "R-A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 17,
+                    "end": 17,
+                    "text": "is",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 18,
+                    "end": 34,
+                    "text": "that they have to talk about the very critical security matter issues such as missile and nuke",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "talk-37.5",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=talk-37.5)), Agent(A0[they]), Topic(A1[about the very critical security matter issues such as missile and nuke])]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "they",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "about the very critical security matter issues such as missile and nuke",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=talk-37.5)), EVENT(e1 = VnClassXml(verbNetId=talk-37.5)), EVENT(e2 = VnClassXml(verbNetId=talk-37.5))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Transfer Info[EVENT(e1 = VnClassXml(verbNetId=talk-37.5)), Agent(A0[they]), Topic(A1[about the very critical security matter issues such as missile and nuke]), Co Agent(?)]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "they",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "about the very critical security matter issues such as missile and nuke",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Co Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Information[EVENT(e2 = VnClassXml(verbNetId=talk-37.5)), Co Agent(?), Topic(A1[about the very critical security matter issues such as missile and nuke])]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Co Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "about the very critical security matter issues such as missile and nuke",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> talker",
+                    "start": 19,
+                    "end": 19,
+                    "text": "they",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "talker",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 22,
+                    "end": 22,
+                    "text": "talk",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Topic <-> subject",
+                    "start": 23,
+                    "end": 34,
+                    "text": "about the very critical security matter issues such as missile and nuke",
+                    "pb": "A1",
+                    "vn": "Topic",
+                    "description": "subject",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

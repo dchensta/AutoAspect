@@ -1,0 +1,711 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 0,
+            "text": "It",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "32.1-1-1",
+            "start": 1,
+            "end": 1,
+            "text": "wants",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 2,
+            "end": 2,
+            "text": "to",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "9.1-2",
+            "start": 3,
+            "end": 3,
+            "text": "put",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 4,
+            "end": 4,
+            "text": "an",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "55.4-1-1",
+            "start": 5,
+            "end": 5,
+            "text": "end",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 6,
+            "end": 8,
+            "text": "to what is",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 3,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "34.1",
+            "start": 9,
+            "end": 9,
+            "text": "regarded",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 10,
+            "end": 15,
+            "text": "by the current Russian government as",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 4,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "31.1",
+            "start": 16,
+            "end": 16,
+            "text": "humiliation",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 17,
+            "end": 17,
+            "text": "of the past years .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "want-32.1-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Desire[EVENT(E = VnClassXml(verbNetId=want-32.1-1-1)), Pivot(A0[It]), Theme(A1[to put an end to what is regarded by the current Russian government as humiliation of the past years])]",
+                        "predicateType": "Desire",
+                        "args": [
+                            {
+                                "type": "Pivot",
+                                "value": "It",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Theme",
+                                "value": "to put an end to what is regarded by the current Russian government as humiliation of the past years",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Pivot <-> Wanter",
+                    "start": 0,
+                    "end": 0,
+                    "text": "It",
+                    "pb": "A0",
+                    "vn": "Pivot",
+                    "description": "wanter",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 1,
+                    "end": 1,
+                    "text": "wants",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing wanted",
+                    "start": 2,
+                    "end": 20,
+                    "text": "to put an end to what is regarded by the current Russian government as humiliation of the past years",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing wanted",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "put-9.1-2",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=put-9.1-2)), EVENT(e2 = VnClassXml(verbNetId=put-9.1-2)), EVENT(\u00eb3 = VnClassXml(verbNetId=put-9.1-2))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "\u00eb3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Location[EVENT(e1 = VnClassXml(verbNetId=put-9.1-2)), Theme(A1[an end]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "an end",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Do[EVENT(e2 = VnClassXml(verbNetId=put-9.1-2)), Agent(A0[It])]",
+                            "predicateType": "Do",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "It",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "\u00eb3",
+                    "predicates": [
+                        {
+                            "eventName": "\u00eb3",
+                            "predicate": "Motion[EVENT(\u00eb3 = VnClassXml(verbNetId=put-9.1-2)), Theme(A1[an end]), Verbspecific(Trajectory)]",
+                            "predicateType": "Motion",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "an end",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Trajectory",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        },
+                        {
+                            "eventName": "\u00eb3",
+                            "predicate": "!Has Location[EVENT(\u00eb3 = VnClassXml(verbNetId=put-9.1-2)), Theme(A1[an end]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "an end",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 2
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 3,
+                    "name": "e4",
+                    "predicates": [
+                        {
+                            "eventName": "e4",
+                            "predicate": "Has Location[EVENT(e4 = VnClassXml(verbNetId=put-9.1-2)), Theme(A1[an end]), Destination(A2[to what is regarded by the current Russian government as humiliation of the past years])]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "an end",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Destination",
+                                    "value": "to what is regarded by the current Russian government as humiliation of the past years",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 3
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> putter",
+                    "start": 0,
+                    "end": 0,
+                    "text": "It",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "putter",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 3,
+                    "end": 3,
+                    "text": "put",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing put",
+                    "start": 4,
+                    "end": 5,
+                    "text": "an end",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing put",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Destination <-> where put",
+                    "start": 6,
+                    "end": 20,
+                    "text": "to what is regarded by the current Russian government as humiliation of the past years",
+                    "pb": "A2",
+                    "vn": "Destination",
+                    "description": "where put",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "stop-55.4-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=stop-55.4-1-1)), EVENT(e2 = VnClassXml(verbNetId=stop-55.4-1-1)), EVENT(e1 = VnClassXml(verbNetId=stop-55.4-1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "End[EVENT(E = VnClassXml(verbNetId=stop-55.4-1-1)), Theme(A1[to what is regarded by the current Russian government as humiliation of the past years])]",
+                        "predicateType": "End",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "to what is regarded by the current Russian government as humiliation of the past years",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Do[EVENT(e1 = VnClassXml(verbNetId=stop-55.4-1-1)), Agent(A0[It])]",
+                            "predicateType": "Do",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "It",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> Agent/cause of ending",
+                    "start": 0,
+                    "end": 0,
+                    "text": "It",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "agent/cause of ending",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 5,
+                    "end": 5,
+                    "text": "end",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> Thing ending",
+                    "start": 6,
+                    "end": 20,
+                    "text": "to what is regarded by the current Russian government as humiliation of the past years",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing ending",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "assessment-34.1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Assess[EVENT(e1 = VnClassXml(verbNetId=assessment-34.1)), Agent(A0[by the current Russian government]), Theme(A1[what]), Attribute(A2[as humiliation of the past years])]",
+                            "predicateType": "Assess",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "by the current Russian government",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "what",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Attribute",
+                                    "value": "as humiliation of the past years",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme",
+                    "start": 7,
+                    "end": 7,
+                    "text": "what",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 9,
+                    "end": 9,
+                    "text": "regarded",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent",
+                    "start": 10,
+                    "end": 14,
+                    "text": "by the current Russian government",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute",
+                    "start": 15,
+                    "end": 20,
+                    "text": "as humiliation of the past years",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "amuse-31.1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "\u00cb",
+                "predicates": [
+                    {
+                        "eventName": "\u00cb",
+                        "predicate": "Emotional State[EVENT(\u00cb = VnClassXml(verbNetId=amuse-31.1)), Experiencer(?), Verbspecific(Emotion)]",
+                        "predicateType": "Emotional State",
+                        "args": [
+                            {
+                                "type": "Experiencer",
+                                "value": "",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Verbspecific",
+                                "value": "Emotion",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "\u00cb",
+                        "predicate": "In Reaction To[EVENT(\u00cb = VnClassXml(verbNetId=amuse-31.1)), Stimulus(A0[of the past years])]",
+                        "predicateType": "In Reaction To",
+                        "args": [
+                            {
+                                "type": "Stimulus",
+                                "value": "of the past years",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 16,
+                    "end": 16,
+                    "text": "humiliation",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Stimulus <-> Stimulus of humiliation",
+                    "start": 17,
+                    "end": 20,
+                    "text": "of the past years",
+                    "pb": "A0",
+                    "vn": "Stimulus",
+                    "description": "stimulus of humiliation",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

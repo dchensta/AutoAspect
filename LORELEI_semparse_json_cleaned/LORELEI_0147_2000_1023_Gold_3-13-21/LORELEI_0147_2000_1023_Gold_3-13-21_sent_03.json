@@ -1,0 +1,396 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "9.1-2",
+            "start": 0,
+            "end": 0,
+            "text": "Putting",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 1,
+            "end": 13,
+            "text": "aside a half century of acrimony , Secretary of State , Madeleine Albright",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "36.3-1",
+            "start": 14,
+            "end": 14,
+            "text": "met",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 15,
+            "end": 15,
+            "text": "today with North Koreas leader Kim Jong Il in Pyongyang .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "put-9.1-2",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=put-9.1-2)), EVENT(e2 = VnClassXml(verbNetId=put-9.1-2)), EVENT(\u00eb3 = VnClassXml(verbNetId=put-9.1-2))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "\u00eb3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Location[EVENT(e1 = VnClassXml(verbNetId=put-9.1-2)), Theme(A1[a half century of acrimony]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "a half century of acrimony",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Do[EVENT(e2 = VnClassXml(verbNetId=put-9.1-2)), Agent(A0[Secretary of State])]",
+                            "predicateType": "Do",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Secretary of State",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "\u00eb3",
+                    "predicates": [
+                        {
+                            "eventName": "\u00eb3",
+                            "predicate": "Motion[EVENT(\u00eb3 = VnClassXml(verbNetId=put-9.1-2)), Theme(A1[a half century of acrimony]), Verbspecific(Trajectory)]",
+                            "predicateType": "Motion",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "a half century of acrimony",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Trajectory",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        },
+                        {
+                            "eventName": "\u00eb3",
+                            "predicate": "!Has Location[EVENT(\u00eb3 = VnClassXml(verbNetId=put-9.1-2)), Theme(A1[a half century of acrimony]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "a half century of acrimony",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 2
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 3,
+                    "name": "e4",
+                    "predicates": [
+                        {
+                            "eventName": "e4",
+                            "predicate": "Has Location[EVENT(e4 = VnClassXml(verbNetId=put-9.1-2)), Theme(A1[a half century of acrimony]), Destination(A2[aside])]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "a half century of acrimony",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Destination",
+                                    "value": "aside",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 3
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 0,
+                    "end": 0,
+                    "text": "Putting",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Destination <-> where put",
+                    "start": 1,
+                    "end": 1,
+                    "text": "aside",
+                    "pb": "A2",
+                    "vn": "Destination",
+                    "description": "where put",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing put",
+                    "start": 2,
+                    "end": 6,
+                    "text": "a half century of acrimony",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing put",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> putter",
+                    "start": 8,
+                    "end": 10,
+                    "text": "Secretary of State",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "putter",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> putter",
+                    "start": 12,
+                    "end": 13,
+                    "text": "Madeleine Albright",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "putter",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "meet-36.3-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Social Interaction[EVENT(e1 = VnClassXml(verbNetId=meet-36.3-1)), Agent(A0[Secretary of State , Madeleine Albright]), Co Agent(A1[with North Koreas leader Kim Jong Il])]",
+                            "predicateType": "Social Interaction",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Secretary of State , Madeleine Albright",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Co Agent",
+                                    "value": "with North Koreas leader Kim Jong Il",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-ADV",
+                    "start": 0,
+                    "end": 6,
+                    "text": "Putting aside a half century of acrimony",
+                    "pb": "AM-ADV",
+                    "vn": "",
+                    "description": "adverbial",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> meeter",
+                    "start": 8,
+                    "end": 13,
+                    "text": "Secretary of State , Madeleine Albright",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "meeter",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 14,
+                    "end": 14,
+                    "text": "met",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 15,
+                    "end": 15,
+                    "text": "today",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Co Agent <-> person / entity / object being met",
+                    "start": 16,
+                    "end": 22,
+                    "text": "with North Koreas leader Kim Jong Il",
+                    "pb": "A1",
+                    "vn": "Co Agent",
+                    "description": "person / entity / object being met",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-LOC",
+                    "start": 23,
+                    "end": 24,
+                    "text": "in Pyongyang",
+                    "pb": "AM-LOC",
+                    "vn": "",
+                    "description": "location",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        }
+    ]
+}
+

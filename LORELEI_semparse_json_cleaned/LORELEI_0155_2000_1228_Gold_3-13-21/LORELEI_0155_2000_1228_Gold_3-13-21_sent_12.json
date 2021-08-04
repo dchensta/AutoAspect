@@ -1,0 +1,403 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 6,
+            "text": "John Bolton of the American Enterprise Institute",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "13.2-1",
+            "start": 7,
+            "end": 7,
+            "text": "shares",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 8,
+            "end": 9,
+            "text": "the Pentagons",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.8",
+            "start": 10,
+            "end": 10,
+            "text": "objections",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 11,
+            "end": 11,
+            "text": ".",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "contribute-13.2-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=contribute-13.2-1)), EVENT(e2 = VnClassXml(verbNetId=contribute-13.2-1)), EVENT(e3 = VnClassXml(verbNetId=contribute-13.2-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Possession[EVENT(e1 = VnClassXml(verbNetId=contribute-13.2-1)), Agent(A0[John Bolton of the American Enterprise Institute]), Theme(A1[the Pentagons objections])]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "John Bolton of the American Enterprise Institute",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "the Pentagons objections",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        },
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Has Possession[EVENT(e1 = VnClassXml(verbNetId=contribute-13.2-1)), Recipient(?), Theme(A1[the Pentagons objections])]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "the Pentagons objections",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Transfer[EVENT(e2 = VnClassXml(verbNetId=contribute-13.2-1)), Agent(A0[John Bolton of the American Enterprise Institute]), Theme(A1[the Pentagons objections]), Recipient(?)]",
+                            "predicateType": "Transfer",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "John Bolton of the American Enterprise Institute",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "the Pentagons objections",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has Possession[EVENT(e3 = VnClassXml(verbNetId=contribute-13.2-1)), Recipient(?), Theme(A1[the Pentagons objections])]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "the Pentagons objections",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        },
+                        {
+                            "eventName": "e3",
+                            "predicate": "!Has Possession[EVENT(e3 = VnClassXml(verbNetId=contribute-13.2-1)), Agent(A0[John Bolton of the American Enterprise Institute]), Theme(A1[the Pentagons objections])]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "John Bolton of the American Enterprise Institute",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "the Pentagons objections",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent",
+                    "start": 0,
+                    "end": 6,
+                    "text": "John Bolton of the American Enterprise Institute",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 7,
+                    "end": 7,
+                    "text": "shares",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme",
+                    "start": 8,
+                    "end": 10,
+                    "text": "the Pentagons objections",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "complain-37.8",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=complain-37.8)), Agent(A0[the Pentagons]), Topic(?)]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "the Pentagons",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=complain-37.8)), EVENT(e1 = VnClassXml(verbNetId=complain-37.8)), EVENT(e2 = VnClassXml(verbNetId=complain-37.8))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Transfer Info[EVENT(e1 = VnClassXml(verbNetId=complain-37.8)), Agent(A0[the Pentagons]), Topic(?), Recipient(?)]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "the Pentagons",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Information[EVENT(e2 = VnClassXml(verbNetId=complain-37.8)), Recipient(?), Topic(?)]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> complainer",
+                    "start": 8,
+                    "end": 9,
+                    "text": "the Pentagons",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "complainer",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 10,
+                    "end": 10,
+                    "text": "objections",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

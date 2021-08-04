@@ -1,0 +1,635 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 7,
+            "text": "Recently the Russian policy toward the US has",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "45.6.1-1",
+            "start": 8,
+            "end": 8,
+            "text": "fallen",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 9,
+            "end": 13,
+            "text": "into a line where Russia",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "61.1",
+            "start": 14,
+            "end": 14,
+            "text": "tries",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 15,
+            "end": 15,
+            "text": "to",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.1.1",
+            "start": 16,
+            "end": 16,
+            "text": "demonstrate",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 17,
+            "end": 19,
+            "text": "force it once",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 3,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "100.1",
+            "start": 20,
+            "end": 20,
+            "text": "had",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 21,
+            "end": 21,
+            "text": "but no longer does .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "calibratable_cos-45.6.1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=calibratable_cos-45.6.1-1)), EVENT(e2 = VnClassXml(verbNetId=calibratable_cos-45.6.1-1)), EVENT(e3 = VnClassXml(verbNetId=calibratable_cos-45.6.1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Property[EVENT(E = VnClassXml(verbNetId=calibratable_cos-45.6.1-1)), Patient(A1[the Russian policy toward the US]), Attribute(?)]",
+                        "predicateType": "Has Property",
+                        "args": [
+                            {
+                                "type": "Patient",
+                                "value": "the Russian policy toward the US",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Val[EVENT(e1 = VnClassXml(verbNetId=calibratable_cos-45.6.1-1)), Patient(A1[the Russian policy toward the US]), Initial State(?)]",
+                            "predicateType": "Has Val",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "the Russian policy toward the US",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial State",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Change Value[EVENT(e2 = VnClassXml(verbNetId=calibratable_cos-45.6.1-1)), Patient(A1[the Russian policy toward the US]), Verbspecific(V_Direction = decrease), Extent(?), Attribute(?)]",
+                            "predicateType": "Change Value",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "the Russian policy toward the US",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "V_Direction",
+                                    "value": "decrease",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Extent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Attribute",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has Val[EVENT(e3 = VnClassXml(verbNetId=calibratable_cos-45.6.1-1)), Patient(A1[the Russian policy toward the US]), Result(A4[into a line where Russia tries to demonstrate force it once had but no longer does])]",
+                            "predicateType": "Has Val",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "the Russian policy toward the US",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Result",
+                                    "value": "into a line where Russia tries to demonstrate force it once had but no longer does",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 0,
+                    "end": 0,
+                    "text": "Recently",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Patient",
+                    "start": 1,
+                    "end": 6,
+                    "text": "the Russian policy toward the US",
+                    "pb": "A1",
+                    "vn": "Patient",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 8,
+                    "end": 8,
+                    "text": "fallen",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A4 <-> Result",
+                    "start": 9,
+                    "end": 24,
+                    "text": "into a line where Russia tries to demonstrate force it once had but no longer does",
+                    "pb": "A4",
+                    "vn": "Result",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "try-61.1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Attempt[EVENT(e1 = VnClassXml(verbNetId=try-61.1)), Agent(A0[Russia]), Theme(A1[to demonstrate force it once had])]",
+                            "predicateType": "Attempt",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Russia",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "to demonstrate force it once had",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> Agent/Entity Trying",
+                    "start": 13,
+                    "end": 13,
+                    "text": "Russia",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "agent/entity trying",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 14,
+                    "end": 14,
+                    "text": "tries",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing tried",
+                    "start": 15,
+                    "end": 20,
+                    "text": "to demonstrate force it once had",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing tried",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "transfer_mesg-37.1.1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=transfer_mesg-37.1.1)), Agent(A0[Russia]), Topic(A1[force it once had])]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "Russia",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "force it once had",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=transfer_mesg-37.1.1)), EVENT(e1 = VnClassXml(verbNetId=transfer_mesg-37.1.1)), EVENT(e2 = VnClassXml(verbNetId=transfer_mesg-37.1.1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Transfer Info[EVENT(e1 = VnClassXml(verbNetId=transfer_mesg-37.1.1)), Agent(A0[Russia]), Topic(A1[force it once had]), Recipient(?)]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Russia",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "force it once had",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Information[EVENT(e2 = VnClassXml(verbNetId=transfer_mesg-37.1.1)), Recipient(?), Topic(A1[force it once had])]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "force it once had",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> demonstrator",
+                    "start": 13,
+                    "end": 13,
+                    "text": "Russia",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "demonstrator",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 16,
+                    "end": 16,
+                    "text": "demonstrate",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Topic <-> thing demonstrated",
+                    "start": 17,
+                    "end": 20,
+                    "text": "force it once had",
+                    "pb": "A1",
+                    "vn": "Topic",
+                    "description": "thing demonstrated",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "own-100.1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Possession[EVENT(E = VnClassXml(verbNetId=own-100.1)), Pivot(A0[it]), Theme(A1[force])]",
+                        "predicateType": "Has Possession",
+                        "args": [
+                            {
+                                "type": "Pivot",
+                                "value": "it",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Theme",
+                                "value": "force",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> possession",
+                    "start": 17,
+                    "end": 17,
+                    "text": "force",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "possession",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Pivot <-> owner",
+                    "start": 18,
+                    "end": 18,
+                    "text": "it",
+                    "pb": "A0",
+                    "vn": "Pivot",
+                    "description": "owner",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 19,
+                    "end": 19,
+                    "text": "once",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 20,
+                    "end": 20,
+                    "text": "had",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

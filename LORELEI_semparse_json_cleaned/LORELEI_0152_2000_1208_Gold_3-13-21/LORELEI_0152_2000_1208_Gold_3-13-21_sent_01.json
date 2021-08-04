@@ -1,0 +1,523 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 3,
+            "text": "The United States is",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "32.2-1",
+            "start": 4,
+            "end": 4,
+            "text": "hoping",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 5,
+            "end": 10,
+            "text": "that Russias President Vladimir Putin will",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "93",
+            "start": 11,
+            "end": 11,
+            "text": "follow",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 12,
+            "end": 12,
+            "text": "the",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.9-1",
+            "start": 13,
+            "end": 13,
+            "text": "advice",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 14,
+            "end": 18,
+            "text": "of his special commission and",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 3,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "33.1-1",
+            "start": 19,
+            "end": 19,
+            "text": "pardon",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 20,
+            "end": 20,
+            "text": "Edmund Pope .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "long-32.2-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Desire[EVENT(E = VnClassXml(verbNetId=long-32.2-1)), Pivot(A0[The United States]), Theme(A1[that Russias President Vladimir Putin will follow the advice of his special commission and pardon Edmund Pope])]",
+                        "predicateType": "Desire",
+                        "args": [
+                            {
+                                "type": "Pivot",
+                                "value": "The United States",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Theme",
+                                "value": "that Russias President Vladimir Putin will follow the advice of his special commission and pardon Edmund Pope",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Pivot <-> hoper",
+                    "start": 0,
+                    "end": 2,
+                    "text": "The United States",
+                    "pb": "A0",
+                    "vn": "Pivot",
+                    "description": "hoper",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 4,
+                    "end": 4,
+                    "text": "hoping",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing hoped (for)",
+                    "start": 5,
+                    "end": 21,
+                    "text": "that Russias President Vladimir Putin will follow the advice of his special commission and pardon Edmund Pope",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing hoped (for)",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "adopt-93",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Adopt[EVENT(e1 = VnClassXml(verbNetId=adopt-93)), Agent(A0[Russias President Vladimir Putin]), Theme(A1[the advice of his special commission])]",
+                            "predicateType": "Adopt",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Russias President Vladimir Putin",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "the advice of his special commission",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent",
+                    "start": 6,
+                    "end": 9,
+                    "text": "Russias President Vladimir Putin",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-MOD",
+                    "start": 10,
+                    "end": 10,
+                    "text": "will",
+                    "pb": "AM-MOD",
+                    "vn": "",
+                    "description": "modal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 11,
+                    "end": 11,
+                    "text": "follow",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme",
+                    "start": 12,
+                    "end": 17,
+                    "text": "the advice of his special commission",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "advise-37.9-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=advise-37.9-1)), Agent(A0[of his special commission]), Topic(?)]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "of his special commission",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=advise-37.9-1)), EVENT(e1 = VnClassXml(verbNetId=advise-37.9-1)), EVENT(e2 = VnClassXml(verbNetId=advise-37.9-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Transfer Info[EVENT(e1 = VnClassXml(verbNetId=advise-37.9-1)), Agent(A0[of his special commission]), Topic(?), Recipient(?)]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "of his special commission",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Information[EVENT(e2 = VnClassXml(verbNetId=advise-37.9-1)), Recipient(?), Topic(?)]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 13,
+                    "end": 13,
+                    "text": "advice",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> entity giving advice",
+                    "start": 14,
+                    "end": 17,
+                    "text": "of his special commission",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "entity giving advice",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "judgment-33.1-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Declare[EVENT(e1 = VnClassXml(verbNetId=judgment-33.1-1)), Agent(A0[Russias President Vladimir Putin]), Theme(A1[Edmund Pope]), Attribute(?)]",
+                            "predicateType": "Declare",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Russias President Vladimir Putin",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "Edmund Pope",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Attribute",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> pardoner",
+                    "start": 6,
+                    "end": 9,
+                    "text": "Russias President Vladimir Putin",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "pardoner",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-MOD",
+                    "start": 10,
+                    "end": 10,
+                    "text": "will",
+                    "pb": "AM-MOD",
+                    "vn": "",
+                    "description": "modal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 19,
+                    "end": 19,
+                    "text": "pardon",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> guilty party",
+                    "start": 20,
+                    "end": 21,
+                    "text": "Edmund Pope",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "guilty party",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

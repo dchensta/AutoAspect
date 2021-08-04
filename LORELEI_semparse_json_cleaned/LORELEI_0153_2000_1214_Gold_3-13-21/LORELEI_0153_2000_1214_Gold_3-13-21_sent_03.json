@@ -1,0 +1,127 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 0,
+            "text": "He",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "29.5",
+            "start": 1,
+            "end": 1,
+            "text": "denied",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 2,
+            "end": 2,
+            "text": "any wrongdoing .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "conjecture-29.5",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Believe[EVENT(E = VnClassXml(verbNetId=conjecture-29.5)), Agent(A0[He]), Theme(A1[any wrongdoing]), Predicate(?)]",
+                        "predicateType": "Believe",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "He",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Theme",
+                                "value": "any wrongdoing",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Predicate",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> denier",
+                    "start": 0,
+                    "end": 0,
+                    "text": "He",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "denier",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 1,
+                    "end": 1,
+                    "text": "denied",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing denied",
+                    "start": 2,
+                    "end": 3,
+                    "text": "any wrongdoing",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing denied",
+                    "modifier": false,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+

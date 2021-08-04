@@ -1,0 +1,157 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "The court",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "30.3",
+            "start": 2,
+            "end": 2,
+            "text": "listened",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 3,
+            "text": "to the defense much less than it did to the prosecution .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "peer-30.3",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "In Reaction To[EVENT(E = VnClassXml(verbNetId=peer-30.3)), Theme(A1[to the defense])]",
+                        "predicateType": "In Reaction To",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "to the defense",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Perceive[EVENT(e1 = VnClassXml(verbNetId=peer-30.3)), Agent(A0[The court]), Theme(A1[to the defense])]",
+                            "predicateType": "Perceive",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "The court",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "to the defense",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent",
+                    "start": 0,
+                    "end": 1,
+                    "text": "The court",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "listened",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme",
+                    "start": 3,
+                    "end": 5,
+                    "text": "to the defense",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-EXT",
+                    "start": 6,
+                    "end": 13,
+                    "text": "much less than it did to the prosecution",
+                    "pb": "AM-EXT",
+                    "vn": "",
+                    "description": "extent",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        }
+    ]
+}
+

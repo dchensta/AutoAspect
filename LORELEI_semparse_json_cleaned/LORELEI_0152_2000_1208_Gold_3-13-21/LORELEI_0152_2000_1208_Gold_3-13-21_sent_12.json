@@ -1,0 +1,551 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 2,
+            "text": "Much of this",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "30.4",
+            "start": 3,
+            "end": 3,
+            "text": "sounds",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 4,
+            "end": 23,
+            "text": "less like a pardon and more like a criticism of the number of institutions that Mr Putin also has to",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.1.1-1-1",
+            "start": 24,
+            "end": 24,
+            "text": "show",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 25,
+            "end": 25,
+            "text": "some",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "31.2",
+            "start": 26,
+            "end": 26,
+            "text": "support",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 27,
+            "end": 28,
+            "text": "of ,",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 3,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "64.3-1",
+            "start": 29,
+            "end": 29,
+            "text": "including",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 30,
+            "end": 30,
+            "text": "his court system and his police and his prosecutors .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "stimulus_subject-30.4",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Perceive[EVENT(e1 = VnClassXml(verbNetId=stimulus_subject-30.4)), Experiencer(?), Stimulus(A1[Much of this])]",
+                            "predicateType": "Perceive",
+                            "args": [
+                                {
+                                    "type": "Experiencer",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Stimulus",
+                                    "value": "Much of this",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        },
+                        {
+                            "eventName": "e1",
+                            "predicate": "In Reaction To[EVENT(e1 = VnClassXml(verbNetId=stimulus_subject-30.4)), Stimulus(A1[Much of this])]",
+                            "predicateType": "In Reaction To",
+                            "args": [
+                                {
+                                    "type": "Stimulus",
+                                    "value": "Much of this",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Stimulus <-> thing seeming",
+                    "start": 0,
+                    "end": 2,
+                    "text": "Much of this",
+                    "pb": "A1",
+                    "vn": "Stimulus",
+                    "description": "thing seeming",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 3,
+                    "end": 3,
+                    "text": "sounds",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> attribute of arg1",
+                    "start": 4,
+                    "end": 38,
+                    "text": "less like a pardon and more like a criticism of the number of institutions that Mr Putin also has to show some support of , including his court system and his police and his prosecutors",
+                    "pb": "A2",
+                    "vn": "",
+                    "description": "attribute of arg1",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "transfer_mesg-37.1.1-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=transfer_mesg-37.1.1-1-1)), Agent(A0[Mr Putin]), Topic(A1[some support of])]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "Mr Putin",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "some support of",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=transfer_mesg-37.1.1-1-1)), EVENT(e1 = VnClassXml(verbNetId=transfer_mesg-37.1.1-1-1)), EVENT(e2 = VnClassXml(verbNetId=transfer_mesg-37.1.1-1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Transfer Info[EVENT(e1 = VnClassXml(verbNetId=transfer_mesg-37.1.1-1-1)), Agent(A0[Mr Putin]), Topic(A1[some support of]), Recipient(?)]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Mr Putin",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "some support of",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Information[EVENT(e2 = VnClassXml(verbNetId=transfer_mesg-37.1.1-1-1)), Recipient(?), Topic(A1[some support of])]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "some support of",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> shower",
+                    "start": 19,
+                    "end": 20,
+                    "text": "Mr Putin",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "shower",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 24,
+                    "end": 24,
+                    "text": "show",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Topic <-> thing seen/shown",
+                    "start": 25,
+                    "end": 27,
+                    "text": "some support of",
+                    "pb": "A1",
+                    "vn": "Topic",
+                    "description": "thing seen/shown",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "admire-31.2",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Emotional State[EVENT(E = VnClassXml(verbNetId=admire-31.2)), Verbspecific(Emotion), Experiencer(?)]",
+                        "predicateType": "Emotional State",
+                        "args": [
+                            {
+                                "type": "Verbspecific",
+                                "value": "Emotion",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Experiencer",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "In Reaction To[EVENT(E = VnClassXml(verbNetId=admire-31.2)), Stimulus(A1[the number of institutions])]",
+                        "predicateType": "In Reaction To",
+                        "args": [
+                            {
+                                "type": "Stimulus",
+                                "value": "the number of institutions",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Stimulus <-> person, thing or project being supported",
+                    "start": 14,
+                    "end": 17,
+                    "text": "the number of institutions",
+                    "pb": "A1",
+                    "vn": "Stimulus",
+                    "description": "person, thing or project being supported",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "R-A1 <-> Stimulus <-> person, thing or project being supported",
+                    "start": 18,
+                    "end": 18,
+                    "text": "that",
+                    "pb": "R-A1",
+                    "vn": "Stimulus",
+                    "description": "person, thing or project being supported",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 26,
+                    "end": 26,
+                    "text": "support",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "C-A1 <-> Stimulus <-> person, thing or project being supported",
+                    "start": 27,
+                    "end": 27,
+                    "text": "of",
+                    "pb": "C-A1",
+                    "vn": "Stimulus",
+                    "description": "person, thing or project being supported",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "admit-64.3-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Admit[EVENT(e1 = VnClassXml(verbNetId=admit-64.3-1)), Agent(?), Theme(A1[his court system and his police and his prosecutors]), Location(?)]",
+                            "predicateType": "Admit",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "his court system and his police and his prosecutors",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2",
+                    "start": 14,
+                    "end": 17,
+                    "text": "the number of institutions",
+                    "pb": "A2",
+                    "vn": "",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 29,
+                    "end": 29,
+                    "text": "including",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme",
+                    "start": 30,
+                    "end": 38,
+                    "text": "his court system and his police and his prosecutors",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

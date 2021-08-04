@@ -1,0 +1,30 @@
+﻿#,Sentence,Event,Co-reference,Aspect
+1,Edmund Pope tasted freedom today for the first time in more than eight months.,,,
+,,taste-01,,State
+2,Pope is the American businessman who was convicted last week on spying charges and sentenced to 20 years in a Russian prison.,,,
+,,american-businessman-02,,State
+,,convict-02,,Performance
+,,charge-02,,Process
+,,sentence-02,,Performance
+3,He denied any wrongdoing.,,,
+,,deny-03,,Performance
+,,wrongdoing-03,,Process
+4,Russian President Vladimir Putin pardoned him for health reasons.,,,
+,,pardon-04,,Performance
+5,"Pope was flown to the U.S. military base at Ramstein, Germany.",,,
+,,fly-05,,Performance
+6,He will spend the next several days at the medical center there before he returns home with his wife Sherry.,,,
+,,spend-06,,Performance
+,,return-06,,Performance
+7,Pope was in remission from a rare form of bone cancer when he was arrested in Russia.,,,
+,,be_in_remission-07,,State
+,,arrest-07,,Performance
+8,Doctors will examine him for signs that the cancer may have come back while he awaiting trial in a Russian jail.,,,
+,,examine-08,,Performance
+,,come_back-08,,Performance
+,,await-08,,Performance
+,,try-08,,Process
+9,A spokeswoman said that Pope was suffering from malnutrition and high blood pressure.,,,
+,,say-09,,Performance
+,,suffer-09,,State
+,END_FILE,,,

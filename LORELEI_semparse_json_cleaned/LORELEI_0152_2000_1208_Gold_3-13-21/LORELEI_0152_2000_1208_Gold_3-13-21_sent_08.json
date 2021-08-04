@@ -1,0 +1,1482 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 0,
+            "text": "I",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 1,
+            "end": 1,
+            "text": "am",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 2,
+            "end": 5,
+            "text": "not sure if those",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 6,
+            "end": 6,
+            "text": "were",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 7,
+            "end": 16,
+            "text": "the formal reasons but members of the commission have been",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.1.3",
+            "start": 17,
+            "end": 17,
+            "text": "interviewed",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 18,
+            "end": 23,
+            "text": "today by various outlets and they",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 3,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.7-1-1",
+            "start": 24,
+            "end": 24,
+            "text": "say",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 25,
+            "end": 26,
+            "text": "that they",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 4,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 27,
+            "end": 27,
+            "text": "were",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 5,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "31.3",
+            "start": 28,
+            "end": 28,
+            "text": "afraid",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 29,
+            "end": 32,
+            "text": "of the spy mania",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 6,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "45.6.1-1",
+            "start": 33,
+            "end": 33,
+            "text": "rising",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 34,
+            "end": 38,
+            "text": "in Russia , that they",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 7,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "29.9-2",
+            "start": 39,
+            "end": 39,
+            "text": "thought",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 40,
+            "end": 40,
+            "text": "it",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 8,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 41,
+            "end": 41,
+            "text": "was",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 42,
+            "end": 42,
+            "text": "really",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 9,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "29.9-2",
+            "start": 43,
+            "end": 43,
+            "text": "suspicious",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 44,
+            "end": 61,
+            "text": "to them that Edmund Pope was sentenced to the maximum term , whereas the article of the law",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 10,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "100.1",
+            "start": 62,
+            "end": 62,
+            "text": "had",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 63,
+            "end": 63,
+            "text": "10 to 20 years .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[I]), Attribute(A2[sure if those were the formal reasons])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "I",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "sure if those were the formal reasons",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 0,
+                    "end": 0,
+                    "text": "I",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 1,
+                    "end": 1,
+                    "text": "am",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-NEG",
+                    "start": 2,
+                    "end": 2,
+                    "text": "not",
+                    "pb": "AM-NEG",
+                    "vn": "",
+                    "description": "negation",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 3,
+                    "end": 9,
+                    "text": "sure if those were the formal reasons",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[those]), Attribute(A2[the formal reasons])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "those",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "the formal reasons",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 5,
+                    "end": 5,
+                    "text": "those",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 6,
+                    "end": 6,
+                    "text": "were",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 7,
+                    "end": 9,
+                    "text": "the formal reasons",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "interrogate-37.1.3",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=interrogate-37.1.3)), Agent(A0[by various outlets]), Topic(?)]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "by various outlets",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=interrogate-37.1.3)), EVENT(e2 = VnClassXml(verbNetId=interrogate-37.1.3)), EVENT(e3 = VnClassXml(verbNetId=interrogate-37.1.3))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Has Information[EVENT(e1 = VnClassXml(verbNetId=interrogate-37.1.3)), Recipient(A1[members of the commission]), Topic(?)]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "members of the commission",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Transfer Info[EVENT(e2 = VnClassXml(verbNetId=interrogate-37.1.3)), Agent(A0[by various outlets]), Topic(?), Recipient(A1[members of the commission])]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "by various outlets",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "members of the commission",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has Information[EVENT(e3 = VnClassXml(verbNetId=interrogate-37.1.3)), Recipient(A1[members of the commission]), Topic(?)]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "members of the commission",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Recipient <-> interviewee",
+                    "start": 11,
+                    "end": 14,
+                    "text": "members of the commission",
+                    "pb": "A1",
+                    "vn": "Recipient",
+                    "description": "interviewee",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 17,
+                    "end": 17,
+                    "text": "interviewed",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 18,
+                    "end": 18,
+                    "text": "today",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> interviewer",
+                    "start": 19,
+                    "end": 21,
+                    "text": "by various outlets",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "interviewer",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "say-37.7-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=say-37.7-1-1)), Agent(A0[they]), Topic(A1[that they were afraid of the spy mania rising in Russia , that they thought it was really suspicious to them that Edmund Pope was sentenced to the maximum term , whereas the article of the law had 10 to 20 years])]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "they",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "that they were afraid of the spy mania rising in Russia , that they thought it was really suspicious to them that Edmund Pope was sentenced to the maximum term , whereas the article of the law had 10 to 20 years",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=say-37.7-1-1)), EVENT(e1 = VnClassXml(verbNetId=say-37.7-1-1)), EVENT(e2 = VnClassXml(verbNetId=say-37.7-1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Transfer Info[EVENT(e1 = VnClassXml(verbNetId=say-37.7-1-1)), Agent(A0[they]), Topic(A1[that they were afraid of the spy mania rising in Russia , that they thought it was really suspicious to them that Edmund Pope was sentenced to the maximum term , whereas the article of the law had 10 to 20 years]), Recipient(?)]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "they",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "that they were afraid of the spy mania rising in Russia , that they thought it was really suspicious to them that Edmund Pope was sentenced to the maximum term , whereas the article of the law had 10 to 20 years",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Information[EVENT(e2 = VnClassXml(verbNetId=say-37.7-1-1)), Recipient(?), Topic(A1[that they were afraid of the spy mania rising in Russia , that they thought it was really suspicious to them that Edmund Pope was sentenced to the maximum term , whereas the article of the law had 10 to 20 years])]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "that they were afraid of the spy mania rising in Russia , that they thought it was really suspicious to them that Edmund Pope was sentenced to the maximum term , whereas the article of the law had 10 to 20 years",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> Sayer",
+                    "start": 23,
+                    "end": 23,
+                    "text": "they",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "sayer",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 24,
+                    "end": 24,
+                    "text": "say",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Topic <-> Utterance",
+                    "start": 25,
+                    "end": 66,
+                    "text": "that they were afraid of the spy mania rising in Russia , that they thought it was really suspicious to them that Edmund Pope was sentenced to the maximum term , whereas the article of the law had 10 to 20 years",
+                    "pb": "A1",
+                    "vn": "Topic",
+                    "description": "utterance",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[they]), Attribute(A2[afraid of the spy mania rising in Russia])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "they",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "afraid of the spy mania rising in Russia",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 26,
+                    "end": 26,
+                    "text": "they",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 27,
+                    "end": 27,
+                    "text": "were",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 28,
+                    "end": 35,
+                    "text": "afraid of the spy mania rising in Russia",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "marvel-31.3",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Emotional State[EVENT(E = VnClassXml(verbNetId=marvel-31.3)), Verbspecific(Emotion), Experiencer(A0[they])]",
+                        "predicateType": "Emotional State",
+                        "args": [
+                            {
+                                "type": "Verbspecific",
+                                "value": "Emotion",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Experiencer",
+                                "value": "they",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "In Reaction To[EVENT(E = VnClassXml(verbNetId=marvel-31.3)), Stimulus(A1[of the spy mania rising in Russia])]",
+                        "predicateType": "In Reaction To",
+                        "args": [
+                            {
+                                "type": "Stimulus",
+                                "value": "of the spy mania rising in Russia",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Experiencer <-> scaredy cat",
+                    "start": 26,
+                    "end": 26,
+                    "text": "they",
+                    "pb": "A0",
+                    "vn": "Experiencer",
+                    "description": "scaredy cat",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 28,
+                    "end": 28,
+                    "text": "afraid",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Stimulus <-> afraid of",
+                    "start": 29,
+                    "end": 35,
+                    "text": "of the spy mania rising in Russia",
+                    "pb": "A1",
+                    "vn": "Stimulus",
+                    "description": "afraid of",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "calibratable_cos-45.6.1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=calibratable_cos-45.6.1-1)), EVENT(e2 = VnClassXml(verbNetId=calibratable_cos-45.6.1-1)), EVENT(e3 = VnClassXml(verbNetId=calibratable_cos-45.6.1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Property[EVENT(E = VnClassXml(verbNetId=calibratable_cos-45.6.1-1)), Patient(A1[the spy mania]), Attribute(?)]",
+                        "predicateType": "Has Property",
+                        "args": [
+                            {
+                                "type": "Patient",
+                                "value": "the spy mania",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Val[EVENT(e1 = VnClassXml(verbNetId=calibratable_cos-45.6.1-1)), Patient(A1[the spy mania]), Verbspecific(Initial_State = increase)]",
+                            "predicateType": "Has Val",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "the spy mania",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial_State",
+                                    "value": "increase",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Change Value[EVENT(e2 = VnClassXml(verbNetId=calibratable_cos-45.6.1-1)), Patient(A1[the spy mania]), Verbspecific(V_Direction = increase), Verbspecific(Extent = increase), Attribute(?)]",
+                            "predicateType": "Change Value",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "the spy mania",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "V_Direction",
+                                    "value": "increase",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Extent",
+                                    "value": "increase",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Attribute",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has Val[EVENT(e3 = VnClassXml(verbNetId=calibratable_cos-45.6.1-1)), Patient(A1[the spy mania]), Verbspecific(Result = increase)]",
+                            "predicateType": "Has Val",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "the spy mania",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Result",
+                                    "value": "increase",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Patient <-> Logical subject, patient, thing rising",
+                    "start": 30,
+                    "end": 32,
+                    "text": "the spy mania",
+                    "pb": "A1",
+                    "vn": "Patient",
+                    "description": "logical subject, patient, thing rising",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 33,
+                    "end": 33,
+                    "text": "rising",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-LOC <-> medium",
+                    "start": 34,
+                    "end": 35,
+                    "text": "in Russia",
+                    "pb": "AM-LOC",
+                    "vn": "",
+                    "description": "medium",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        },
+        {
+            "sense": "consider-29.9-2",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Consider[EVENT(E = VnClassXml(verbNetId=consider-29.9-2)), Agent(A0[they]), Theme(A1[it was really suspicious to them that Edmund Pope was sentenced to the maximum term , whereas the article of the law had 10 to 20 years])]",
+                        "predicateType": "Consider",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "they",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Theme",
+                                "value": "it was really suspicious to them that Edmund Pope was sentenced to the maximum term , whereas the article of the law had 10 to 20 years",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> Thinker",
+                    "start": 38,
+                    "end": 38,
+                    "text": "they",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "thinker",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 39,
+                    "end": 39,
+                    "text": "thought",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> Thought",
+                    "start": 40,
+                    "end": 66,
+                    "text": "it was really suspicious to them that Edmund Pope was sentenced to the maximum term , whereas the article of the law had 10 to 20 years",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thought",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[that Edmund Pope was sentenced to the maximum term]), Attribute(A2[really suspicious to them])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "that Edmund Pope was sentenced to the maximum term",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "really suspicious to them",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 41,
+                    "end": 41,
+                    "text": "was",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 42,
+                    "end": 45,
+                    "text": "really suspicious to them",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 46,
+                    "end": 54,
+                    "text": "that Edmund Pope was sentenced to the maximum term",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-ADV",
+                    "start": 56,
+                    "end": 66,
+                    "text": "whereas the article of the law had 10 to 20 years",
+                    "pb": "AM-ADV",
+                    "vn": "",
+                    "description": "adverbial",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        },
+        {
+            "sense": "consider-29.9-2",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Consider[EVENT(E = VnClassXml(verbNetId=consider-29.9-2)), Agent(A0[that Edmund Pope was sentenced to the maximum term]), Theme(A1[to them])]",
+                        "predicateType": "Consider",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "that Edmund Pope was sentenced to the maximum term",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Theme",
+                                "value": "to them",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-EXT",
+                    "start": 42,
+                    "end": 42,
+                    "text": "really",
+                    "pb": "AM-EXT",
+                    "vn": "",
+                    "description": "extent",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 43,
+                    "end": 43,
+                    "text": "suspicious",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> suspicion: what arg0 thinks",
+                    "start": 44,
+                    "end": 45,
+                    "text": "to them",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "suspicion: what arg0 thinks",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> suspecter",
+                    "start": 46,
+                    "end": 54,
+                    "text": "that Edmund Pope was sentenced to the maximum term",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "suspecter",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-ADV",
+                    "start": 56,
+                    "end": 66,
+                    "text": "whereas the article of the law had 10 to 20 years",
+                    "pb": "AM-ADV",
+                    "vn": "",
+                    "description": "adverbial",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        },
+        {
+            "sense": "own-100.1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Possession[EVENT(E = VnClassXml(verbNetId=own-100.1)), Pivot(A0[the article of the law]), Theme(A1[10 to 20 years])]",
+                        "predicateType": "Has Possession",
+                        "args": [
+                            {
+                                "type": "Pivot",
+                                "value": "the article of the law",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Theme",
+                                "value": "10 to 20 years",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Pivot <-> owner",
+                    "start": 57,
+                    "end": 61,
+                    "text": "the article of the law",
+                    "pb": "A0",
+                    "vn": "Pivot",
+                    "description": "owner",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 62,
+                    "end": 62,
+                    "text": "had",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> possession",
+                    "start": 63,
+                    "end": 66,
+                    "text": "10 to 20 years",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "possession",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

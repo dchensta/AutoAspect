@@ -1,0 +1,143 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 3,
+            "text": "Russian President Vladimir Putin",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "33.1-1",
+            "start": 4,
+            "end": 4,
+            "text": "pardoned",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 5,
+            "end": 5,
+            "text": "him for health reasons .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "judgment-33.1-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Declare[EVENT(e1 = VnClassXml(verbNetId=judgment-33.1-1)), Agent(A0[Russian President Vladimir Putin]), Theme(A1[him]), Attribute(?)]",
+                            "predicateType": "Declare",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Russian President Vladimir Putin",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "him",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Attribute",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> pardoner",
+                    "start": 0,
+                    "end": 3,
+                    "text": "Russian President Vladimir Putin",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "pardoner",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 4,
+                    "end": 4,
+                    "text": "pardoned",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> guilty party",
+                    "start": 5,
+                    "end": 5,
+                    "text": "him",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "guilty party",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-CAU",
+                    "start": 6,
+                    "end": 8,
+                    "text": "for health reasons",
+                    "pb": "AM-CAU",
+                    "vn": "",
+                    "description": "cause",
+                    "modifier": true,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+

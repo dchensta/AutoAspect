@@ -1,0 +1,389 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 4,
+            "text": "But proponents of the court",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.7-1-1",
+            "start": 5,
+            "end": 5,
+            "text": "say",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 6,
+            "end": 15,
+            "text": "its healthy for the United States and its allies to",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "51.1-1",
+            "start": 16,
+            "end": 16,
+            "text": "come",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 17,
+            "end": 17,
+            "text": "under the same scrutiny as other countries .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "say-37.7-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=say-37.7-1-1)), Agent(A0[proponents of the court]), Topic(A1[its healthy for the United States and its allies to come under the same scrutiny as other countries])]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "proponents of the court",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "its healthy for the United States and its allies to come under the same scrutiny as other countries",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=say-37.7-1-1)), EVENT(e1 = VnClassXml(verbNetId=say-37.7-1-1)), EVENT(e2 = VnClassXml(verbNetId=say-37.7-1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Transfer Info[EVENT(e1 = VnClassXml(verbNetId=say-37.7-1-1)), Agent(A0[proponents of the court]), Topic(A1[its healthy for the United States and its allies to come under the same scrutiny as other countries]), Recipient(?)]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "proponents of the court",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "its healthy for the United States and its allies to come under the same scrutiny as other countries",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Information[EVENT(e2 = VnClassXml(verbNetId=say-37.7-1-1)), Recipient(?), Topic(A1[its healthy for the United States and its allies to come under the same scrutiny as other countries])]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "its healthy for the United States and its allies to come under the same scrutiny as other countries",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-DIS",
+                    "start": 0,
+                    "end": 0,
+                    "text": "But",
+                    "pb": "AM-DIS",
+                    "vn": "",
+                    "description": "discourse",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> Sayer",
+                    "start": 1,
+                    "end": 4,
+                    "text": "proponents of the court",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "sayer",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 5,
+                    "end": 5,
+                    "text": "say",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Topic <-> Utterance",
+                    "start": 6,
+                    "end": 23,
+                    "text": "its healthy for the United States and its allies to come under the same scrutiny as other countries",
+                    "pb": "A1",
+                    "vn": "Topic",
+                    "description": "utterance",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "escape-51.1-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Location[EVENT(e1 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[the United States and its allies]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the United States and its allies",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "\u00eb2",
+                    "predicates": [
+                        {
+                            "eventName": "\u00eb2",
+                            "predicate": "Motion[EVENT(\u00eb2 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[the United States and its allies]), Trajectory(A2[under the same scrutiny as other countries])]",
+                            "predicateType": "Motion",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the United States and its allies",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Trajectory",
+                                    "value": "under the same scrutiny as other countries",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "!Has Location[EVENT(e2 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[the United States and its allies]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the United States and its allies",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 2
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 3,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has Location[EVENT(e3 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[the United States and its allies]), Destination(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the United States and its allies",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Destination",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 3
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> entity in motion / 'comer'",
+                    "start": 9,
+                    "end": 14,
+                    "text": "the United States and its allies",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "entity in motion / 'comer'",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 16,
+                    "end": 16,
+                    "text": "come",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Trajectory <-> extent -- rare",
+                    "start": 17,
+                    "end": 23,
+                    "text": "under the same scrutiny as other countries",
+                    "pb": "A2",
+                    "vn": "Trajectory",
+                    "description": "extent -- rare",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

@@ -1,0 +1,230 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "Do you",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "29.5-1",
+            "start": 2,
+            "end": 2,
+            "text": "believe",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 6,
+            "text": "that the US is",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "114-1",
+            "start": 7,
+            "end": 7,
+            "text": "doing",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 8,
+            "end": 8,
+            "text": "the right thing ?",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "conjecture-29.5-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Believe[EVENT(E = VnClassXml(verbNetId=conjecture-29.5-1)), Agent(A0[you]), Theme(A1[that the US is doing the right thing]), Predicate(?)]",
+                        "predicateType": "Believe",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "you",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Theme",
+                                "value": "that the US is doing the right thing",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Predicate",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> believer",
+                    "start": 1,
+                    "end": 1,
+                    "text": "you",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "believer",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "believe",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> believed",
+                    "start": 3,
+                    "end": 10,
+                    "text": "that the US is doing the right thing",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "believed",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "act-114-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Act[EVENT(e1 = VnClassXml(verbNetId=act-114-1)), Agent(A0[the US]), Predicate(?)]",
+                            "predicateType": "Act",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "the US",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Predicate",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent",
+                    "start": 4,
+                    "end": 5,
+                    "text": "the US",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 7,
+                    "end": 7,
+                    "text": "doing",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1",
+                    "start": 8,
+                    "end": 10,
+                    "text": "the right thing",
+                    "pb": "A1",
+                    "vn": "",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

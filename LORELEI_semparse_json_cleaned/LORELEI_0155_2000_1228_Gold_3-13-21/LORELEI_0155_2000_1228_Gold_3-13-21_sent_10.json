@@ -1,0 +1,542 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 0,
+            "text": "It",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "51.1-1",
+            "start": 1,
+            "end": 1,
+            "text": "comes",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 2,
+            "end": 9,
+            "text": "mainly from the Pentagon where US military officials",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "31.2-1",
+            "start": 10,
+            "end": 10,
+            "text": "fear",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 11,
+            "end": 13,
+            "text": "the Court will",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "29.90",
+            "start": 14,
+            "end": 14,
+            "text": "leave",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 15,
+            "end": 15,
+            "text": "Americans vulnerable to politically motivated prosecutions .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "escape-51.1-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Location[EVENT(e1 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[It]), Initial Location(A2[from the Pentagon where US military officials fear the Court will leave Americans vulnerable to politically motivated prosecutions])]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "It",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "from the Pentagon where US military officials fear the Court will leave Americans vulnerable to politically motivated prosecutions",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "\u00eb2",
+                    "predicates": [
+                        {
+                            "eventName": "\u00eb2",
+                            "predicate": "Motion[EVENT(\u00eb2 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[It]), Trajectory(?)]",
+                            "predicateType": "Motion",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "It",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Trajectory",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "!Has Location[EVENT(e2 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[It]), Initial Location(A2[from the Pentagon where US military officials fear the Court will leave Americans vulnerable to politically motivated prosecutions])]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "It",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "from the Pentagon where US military officials fear the Court will leave Americans vulnerable to politically motivated prosecutions",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 2
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 3,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has Location[EVENT(e3 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[It]), Destination(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "It",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Destination",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 3
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> entity in motion / 'comer'",
+                    "start": 0,
+                    "end": 0,
+                    "text": "It",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "entity in motion / 'comer'",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 1,
+                    "end": 1,
+                    "text": "comes",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-ADV",
+                    "start": 2,
+                    "end": 2,
+                    "text": "mainly",
+                    "pb": "AM-ADV",
+                    "vn": "",
+                    "description": "adverbial",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Initial Location <-> extent -- rare",
+                    "start": 3,
+                    "end": 20,
+                    "text": "from the Pentagon where US military officials fear the Court will leave Americans vulnerable to politically motivated prosecutions",
+                    "pb": "A2",
+                    "vn": "Initial Location",
+                    "description": "extent -- rare",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "admire-31.2-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Emotional State[EVENT(E = VnClassXml(verbNetId=admire-31.2-1)), Verbspecific(Emotion), Experiencer(A0[US military officials])]",
+                        "predicateType": "Emotional State",
+                        "args": [
+                            {
+                                "type": "Verbspecific",
+                                "value": "Emotion",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Experiencer",
+                                "value": "US military officials",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "In Reaction To[EVENT(E = VnClassXml(verbNetId=admire-31.2-1)), Stimulus(A1[the Court will leave Americans vulnerable to politically motivated prosecutions])]",
+                        "predicateType": "In Reaction To",
+                        "args": [
+                            {
+                                "type": "Stimulus",
+                                "value": "the Court will leave Americans vulnerable to politically motivated prosecutions",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-LOC",
+                    "start": 4,
+                    "end": 5,
+                    "text": "the Pentagon",
+                    "pb": "AM-LOC",
+                    "vn": "",
+                    "description": "location",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "R-AM-LOC",
+                    "start": 6,
+                    "end": 6,
+                    "text": "where",
+                    "pb": "R-AM-LOC",
+                    "vn": "",
+                    "description": "location",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Experiencer <-> scaredy cat",
+                    "start": 7,
+                    "end": 9,
+                    "text": "US military officials",
+                    "pb": "A0",
+                    "vn": "Experiencer",
+                    "description": "scaredy cat",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 10,
+                    "end": 10,
+                    "text": "fear",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Stimulus <-> afraid of",
+                    "start": 11,
+                    "end": 20,
+                    "text": "the Court will leave Americans vulnerable to politically motivated prosecutions",
+                    "pb": "A1",
+                    "vn": "Stimulus",
+                    "description": "afraid of",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "render-29.90",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=render-29.90)), EVENT(e2 = VnClassXml(verbNetId=render-29.90)), EVENT(e3 = VnClassXml(verbNetId=render-29.90))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Has State[EVENT(e1 = VnClassXml(verbNetId=render-29.90)), Patient(A1[Americans vulnerable to politically motivated prosecutions]), Verbspecific(Result)]",
+                            "predicateType": "Has State",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "Americans vulnerable to politically motivated prosecutions",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Result",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Do[EVENT(e2 = VnClassXml(verbNetId=render-29.90)), Causer(A0[the Court])]",
+                            "predicateType": "Do",
+                            "args": [
+                                {
+                                    "type": "Causer",
+                                    "value": "the Court",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has State[EVENT(e3 = VnClassXml(verbNetId=render-29.90)), Patient(A1[Americans vulnerable to politically motivated prosecutions]), Result(?)]",
+                            "predicateType": "Has State",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "Americans vulnerable to politically motivated prosecutions",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Result",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Causer",
+                    "start": 11,
+                    "end": 12,
+                    "text": "the Court",
+                    "pb": "A0",
+                    "vn": "Causer",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-MOD",
+                    "start": 13,
+                    "end": 13,
+                    "text": "will",
+                    "pb": "AM-MOD",
+                    "vn": "",
+                    "description": "modal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 14,
+                    "end": 14,
+                    "text": "leave",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Patient",
+                    "start": 15,
+                    "end": 20,
+                    "text": "Americans vulnerable to politically motivated prosecutions",
+                    "pb": "A1",
+                    "vn": "Patient",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

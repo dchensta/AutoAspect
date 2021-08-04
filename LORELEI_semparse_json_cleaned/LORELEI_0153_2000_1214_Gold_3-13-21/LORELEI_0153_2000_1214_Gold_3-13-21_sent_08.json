@@ -1,0 +1,363 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "Doctors will",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "35.4",
+            "start": 2,
+            "end": 2,
+            "text": "examine",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 10,
+            "text": "him for signs that the cancer may have",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "51.1-1",
+            "start": 11,
+            "end": 11,
+            "text": "come",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 12,
+            "end": 12,
+            "text": "back while he awaiting trial in a Russian jail .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "investigate-35.4",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Search[EVENT(e1 = VnClassXml(verbNetId=investigate-35.4)), Agent(A0[Doctors]), Location(A1[him]), Theme(A2[for signs that the cancer may have come back while he awaiting trial in a Russian jail])]",
+                            "predicateType": "Search",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Doctors",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Location",
+                                    "value": "him",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "for signs that the cancer may have come back while he awaiting trial in a Russian jail",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> examiner",
+                    "start": 0,
+                    "end": 0,
+                    "text": "Doctors",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "examiner",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-MOD",
+                    "start": 1,
+                    "end": 1,
+                    "text": "will",
+                    "pb": "AM-MOD",
+                    "vn": "",
+                    "description": "modal",
+                    "modifier": true,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "examine",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Location <-> thing examined",
+                    "start": 3,
+                    "end": 3,
+                    "text": "him",
+                    "pb": "A1",
+                    "vn": "Location",
+                    "description": "thing examined",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Theme <-> in search of what",
+                    "start": 4,
+                    "end": 20,
+                    "text": "for signs that the cancer may have come back while he awaiting trial in a Russian jail",
+                    "pb": "A2",
+                    "vn": "Theme",
+                    "description": "in search of what",
+                    "modifier": false,
+                    "predicate": false
+                }
+            ]
+        },
+        {
+            "sense": "escape-51.1-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Location[EVENT(e1 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[the cancer]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the cancer",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "\u00eb2",
+                    "predicates": [
+                        {
+                            "eventName": "\u00eb2",
+                            "predicate": "Motion[EVENT(\u00eb2 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[the cancer]), Trajectory(?)]",
+                            "predicateType": "Motion",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the cancer",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Trajectory",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "!Has Location[EVENT(e2 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[the cancer]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the cancer",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 2
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 3,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has Location[EVENT(e3 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[the cancer]), Destination(AM-DIR[back])]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the cancer",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Destination",
+                                    "value": "back",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 3
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> entity in motion / 'comer'",
+                    "start": 7,
+                    "end": 8,
+                    "text": "the cancer",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "entity in motion / 'comer'",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-MOD",
+                    "start": 9,
+                    "end": 9,
+                    "text": "may",
+                    "pb": "AM-MOD",
+                    "vn": "",
+                    "description": "modal",
+                    "modifier": true,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 11,
+                    "end": 11,
+                    "text": "come",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-DIR <-> Destination",
+                    "start": 12,
+                    "end": 12,
+                    "text": "back",
+                    "pb": "AM-DIR",
+                    "vn": "Destination",
+                    "description": "direction",
+                    "modifier": true,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 13,
+                    "end": 20,
+                    "text": "while he awaiting trial in a Russian jail",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "modifier": true,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+

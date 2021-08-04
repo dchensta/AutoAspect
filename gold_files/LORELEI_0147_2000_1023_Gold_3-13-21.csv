@@ -1,0 +1,62 @@
+﻿#,Sentence,Event,Aspect
+1,This is The World.,,
+,,be_The_World-01,State
+2,I am Lisa Mullins.,,
+,,be_Lisa_Mullins-02,State
+3,"Putting aside a half century of acrimony, Secretary of State, Madeleine Albright met today with North Korea's leader Kim Jong Il in Pyongyang.",,
+,,put-aside-03,Activity
+,,meet-03,Performance
+4,Part of the purpose of this historic visit is to lay the groundwork for a possible trip to North Korea by President Clinton before his term ends.,,
+,,visit-04,Process
+,,be_part-04,State
+,,lay-04,Performance
+,,trip-04,Process
+,,term-04,Process
+5,Albright's visit to Pyongyang is the first by a high level US official since the communist state was established in 1948.,,
+,,visit-05,Process
+,,first-05,State
+,,establish-05,Performance
+6,Kong Dan Oh is a Korean expert who has just written a book called 'North Korea through the looking glass'.,,
+,,be_Korean_expert-06,State
+,,write-06,Performance
+7,She is now in the South Korean capital of Seoul.,,
+,,be-located-in-07,State
+8,We know that the visit is making big news there in Seoul.,,
+,,visit-08,Process
+,,make-08,Activity
+9,Can you tell us what is being reported about the meeting between the two sides from the South Korean perspective?,,
+,,tell-09,Performance
+,,report-09,Activity
+,,meet-09,Process
+10,"Well, when I look at about six major daily newspapers, basically the top news was Madeleine Albright meeting with the chairman Kim Jong Il.",,
+,,look-10,Performance
+,,be_top_news-10,State
+,,meet-10,Performance
+11,"And basically that indeed this is a very historic event, and some kind of euphoria and very positive upbeat feeling.",,
+,,this-11,Process
+,,be_historic-11,State
+,,event-11,Process
+,,euphoria-11,State
+,,feeling-11,State
+12,"But at the same time, the reports are basically telling the importance of these meetings that is that they have to talk about the very critical security matter issues such as missile and nuke",,
+,,tell-12,Activity
+,,meet-12,Process
+,,talk-12,Performance
+13,"But nonetheless, the meeting was very crucial, so I think all in all, it was a very positive beginning.",,
+,,meeting-13,Process
+,,be_crucial-13,State
+,,be_positive-13,State
+,,begin-13,Process
+14,"And how much of South Korea as you mentioned is bordering on euphoria, get this new relationship with Pyongyang and at the visit by Secretary of State Albright?",,
+,,mention-14,Performance
+,,border-14,State
+,,visit-14,Process
+15,"I know that you have taken a more cautious approach, and I wonder if that applies to Secretary Albright's visit in general?",,
+,,approach-15,Activity
+,,wonder-15,State
+,,apply-15,State
+,,visit-15,Process
+16,Do you believe that the US is doing the right thing?,,
+,,believe-16,State
+,,do-16,Activity
+,END_FILE,,

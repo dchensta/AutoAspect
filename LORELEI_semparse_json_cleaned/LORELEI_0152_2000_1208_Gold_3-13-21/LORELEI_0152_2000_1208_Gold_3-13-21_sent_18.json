@@ -1,0 +1,122 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "He does",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "100.1",
+            "start": 2,
+            "end": 2,
+            "text": "have",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 3,
+            "text": "a lot to balance does not he , President Putin .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "own-100.1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Possession[EVENT(E = VnClassXml(verbNetId=own-100.1)), Pivot(A0[He]), Theme(A1[a lot to balance])]",
+                        "predicateType": "Has Possession",
+                        "args": [
+                            {
+                                "type": "Pivot",
+                                "value": "He",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Theme",
+                                "value": "a lot to balance",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Pivot <-> owner",
+                    "start": 0,
+                    "end": 0,
+                    "text": "He",
+                    "pb": "A0",
+                    "vn": "Pivot",
+                    "description": "owner",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "have",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> possession",
+                    "start": 3,
+                    "end": 6,
+                    "text": "a lot to balance",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "possession",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

@@ -1,0 +1,354 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "Such examples",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 2,
+            "end": 2,
+            "text": "are",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 11,
+            "text": "quite a few already , some of them are",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "22.1-1-1",
+            "start": 12,
+            "end": 12,
+            "text": "combined",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 13,
+            "end": 13,
+            "text": "with material profits for Russia but not necessarily .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[Such examples]), Attribute(A2[quite a few])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "Such examples",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "quite a few",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 0,
+                    "end": 1,
+                    "text": "Such examples",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "are",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 3,
+                    "end": 5,
+                    "text": "quite a few",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 6,
+                    "end": 6,
+                    "text": "already",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        },
+        {
+            "sense": "mix-22.1-1-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Mingled[EVENT(e1 = VnClassXml(verbNetId=mix-22.1-1-1)), Patient(A1[some of them]), Co Patient(A2[with material profits for Russia])]",
+                            "predicateType": "Mingled",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "some of them",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Co Patient",
+                                    "value": "with material profits for Russia",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        },
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Material Integrity State[EVENT(e1 = VnClassXml(verbNetId=mix-22.1-1-1)), Patient(A1[some of them]), Verbspecific(V_State)]",
+                            "predicateType": "Material Integrity State",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "some of them",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "V_State",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        },
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Material Integrity State[EVENT(e1 = VnClassXml(verbNetId=mix-22.1-1-1)), Co Patient(A2[with material profits for Russia]), Verbspecific(V_State)]",
+                            "predicateType": "Material Integrity State",
+                            "args": [
+                                {
+                                    "type": "Co Patient",
+                                    "value": "with material profits for Russia",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "V_State",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Mingled[EVENT(e2 = VnClassXml(verbNetId=mix-22.1-1-1)), Patient(A1[some of them]), Co Patient(A2[with material profits for Russia])]",
+                            "predicateType": "Mingled",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "some of them",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Co Patient",
+                                    "value": "with material profits for Russia",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        },
+                        {
+                            "eventName": "e2",
+                            "predicate": "Material Integrity State[EVENT(e2 = VnClassXml(verbNetId=mix-22.1-1-1)), Patient(A1[some of them]), Verbspecific(V_State)]",
+                            "predicateType": "Material Integrity State",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "some of them",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "V_State",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        },
+                        {
+                            "eventName": "e2",
+                            "predicate": "Material Integrity State[EVENT(e2 = VnClassXml(verbNetId=mix-22.1-1-1)), Co Patient(A2[with material profits for Russia]), Verbspecific(V_State)]",
+                            "predicateType": "Material Integrity State",
+                            "args": [
+                                {
+                                    "type": "Co Patient",
+                                    "value": "with material profits for Russia",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "V_State",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Patient <-> ingredient one",
+                    "start": 8,
+                    "end": 10,
+                    "text": "some of them",
+                    "pb": "A1",
+                    "vn": "Patient",
+                    "description": "ingredient one",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 12,
+                    "end": 12,
+                    "text": "combined",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Co Patient <-> ingredient two",
+                    "start": 13,
+                    "end": 17,
+                    "text": "with material profits for Russia",
+                    "pb": "A2",
+                    "vn": "Co Patient",
+                    "description": "ingredient two",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-ADV",
+                    "start": 18,
+                    "end": 20,
+                    "text": "but not necessarily",
+                    "pb": "AM-ADV",
+                    "vn": "",
+                    "description": "adverbial",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        }
+    ]
+}
+

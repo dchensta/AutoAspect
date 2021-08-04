@@ -1,0 +1,288 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 4,
+            "text": "This week the American businessman",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "55.1-1-1",
+            "start": 5,
+            "end": 5,
+            "text": "began",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "29.6-2",
+            "start": 6,
+            "end": 6,
+            "text": "serving",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 7,
+            "end": 7,
+            "text": "a 20 - year prison sentence in Moscow after being convicted of spying .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "begin-55.1-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=begin-55.1-1-1)), EVENT(e2 = VnClassXml(verbNetId=begin-55.1-1-1)), EVENT(e1 = VnClassXml(verbNetId=begin-55.1-1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Begin[EVENT(E = VnClassXml(verbNetId=begin-55.1-1-1)), Theme(A1[serving a 20 - year prison sentence in Moscow after being convicted of spying])]",
+                        "predicateType": "Begin",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "serving a 20 - year prison sentence in Moscow after being convicted of spying",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Do[EVENT(e1 = VnClassXml(verbNetId=begin-55.1-1-1)), Agent(A0[the American businessman])]",
+                            "predicateType": "Do",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "the American businessman",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 0,
+                    "end": 1,
+                    "text": "This week",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> beginner, Agent",
+                    "start": 2,
+                    "end": 4,
+                    "text": "the American businessman",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "beginner, agent",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 5,
+                    "end": 5,
+                    "text": "began",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> Thing begun - NP, not S-node!",
+                    "start": 6,
+                    "end": 19,
+                    "text": "serving a 20 - year prison sentence in Moscow after being convicted of spying",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing begun - np, not s-node!",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "masquerade-29.6-2",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Masquerade[EVENT(e1 = VnClassXml(verbNetId=masquerade-29.6-2)), Agent(A0[the American businessman]), Attribute(A1[a 20 - year prison sentence])]",
+                            "predicateType": "Masquerade",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "the American businessman",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Attribute",
+                                    "value": "a 20 - year prison sentence",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> worker, entity performing a service/acting in some capacity",
+                    "start": 2,
+                    "end": 4,
+                    "text": "the American businessman",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "worker, entity performing a service/acting in some capacity",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 6,
+                    "end": 6,
+                    "text": "serving",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Attribute <-> job, project, service performed",
+                    "start": 7,
+                    "end": 12,
+                    "text": "a 20 - year prison sentence",
+                    "pb": "A1",
+                    "vn": "Attribute",
+                    "description": "job, project, service performed",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-LOC",
+                    "start": 13,
+                    "end": 14,
+                    "text": "in Moscow",
+                    "pb": "AM-LOC",
+                    "vn": "",
+                    "description": "location",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 15,
+                    "end": 19,
+                    "text": "after being convicted of spying",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        }
+    ]
+}
+

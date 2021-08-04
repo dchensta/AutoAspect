@@ -1,0 +1,312 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "A spokeswoman",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.7-1-1",
+            "start": 2,
+            "end": 2,
+            "text": "said",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 5,
+            "text": "that Pope was",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "31.3",
+            "start": 6,
+            "end": 6,
+            "text": "suffering",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 7,
+            "end": 7,
+            "text": "from malnutrition and high blood pressure .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "say-37.7-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=say-37.7-1-1)), Agent(A0[A spokeswoman]), Topic(A1[that Pope was suffering from malnutrition and high blood pressure])]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "A spokeswoman",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "that Pope was suffering from malnutrition and high blood pressure",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=say-37.7-1-1)), EVENT(e1 = VnClassXml(verbNetId=say-37.7-1-1)), EVENT(e2 = VnClassXml(verbNetId=say-37.7-1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Transfer Info[EVENT(e1 = VnClassXml(verbNetId=say-37.7-1-1)), Agent(A0[A spokeswoman]), Topic(A1[that Pope was suffering from malnutrition and high blood pressure]), Recipient(?)]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "A spokeswoman",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "that Pope was suffering from malnutrition and high blood pressure",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Information[EVENT(e2 = VnClassXml(verbNetId=say-37.7-1-1)), Recipient(?), Topic(A1[that Pope was suffering from malnutrition and high blood pressure])]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "that Pope was suffering from malnutrition and high blood pressure",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> Sayer",
+                    "start": 0,
+                    "end": 1,
+                    "text": "A spokeswoman",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "sayer",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "said",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Topic <-> Utterance",
+                    "start": 3,
+                    "end": 12,
+                    "text": "that Pope was suffering from malnutrition and high blood pressure",
+                    "pb": "A1",
+                    "vn": "Topic",
+                    "description": "utterance",
+                    "modifier": false,
+                    "predicate": false
+                }
+            ]
+        },
+        {
+            "sense": "marvel-31.3",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Emotional State[EVENT(E = VnClassXml(verbNetId=marvel-31.3)), Verbspecific(Emotion), Experiencer(A0[Pope])]",
+                        "predicateType": "Emotional State",
+                        "args": [
+                            {
+                                "type": "Verbspecific",
+                                "value": "Emotion",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Experiencer",
+                                "value": "Pope",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "In Reaction To[EVENT(E = VnClassXml(verbNetId=marvel-31.3)), Stimulus(A1[from malnutrition and high blood pressure])]",
+                        "predicateType": "In Reaction To",
+                        "args": [
+                            {
+                                "type": "Stimulus",
+                                "value": "from malnutrition and high blood pressure",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Experiencer <-> entity suffering",
+                    "start": 4,
+                    "end": 4,
+                    "text": "Pope",
+                    "pb": "A0",
+                    "vn": "Experiencer",
+                    "description": "entity suffering",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 6,
+                    "end": 6,
+                    "text": "suffering",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Stimulus <-> malady",
+                    "start": 7,
+                    "end": 12,
+                    "text": "from malnutrition and high blood pressure",
+                    "pb": "A1",
+                    "vn": "Stimulus",
+                    "description": "malady",
+                    "modifier": false,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+

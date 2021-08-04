@@ -1,0 +1,459 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "They also",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.7-1-1",
+            "start": 2,
+            "end": 2,
+            "text": "said",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 6,
+            "text": "this court did not",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "13.1",
+            "start": 7,
+            "end": 7,
+            "text": "give",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 8,
+            "end": 8,
+            "text": "the lawyers for the defense due procedure .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "say-37.7-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=say-37.7-1-1)), Agent(A0[They]), Topic(A1[this court did not give the lawyers for the defense due procedure])]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "They",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "this court did not give the lawyers for the defense due procedure",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=say-37.7-1-1)), EVENT(e1 = VnClassXml(verbNetId=say-37.7-1-1)), EVENT(e2 = VnClassXml(verbNetId=say-37.7-1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Transfer Info[EVENT(e1 = VnClassXml(verbNetId=say-37.7-1-1)), Agent(A0[They]), Topic(A1[this court did not give the lawyers for the defense due procedure]), Recipient(?)]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "They",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "this court did not give the lawyers for the defense due procedure",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Information[EVENT(e2 = VnClassXml(verbNetId=say-37.7-1-1)), Recipient(?), Topic(A1[this court did not give the lawyers for the defense due procedure])]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "this court did not give the lawyers for the defense due procedure",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> Sayer",
+                    "start": 0,
+                    "end": 0,
+                    "text": "They",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "sayer",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-DIS",
+                    "start": 1,
+                    "end": 1,
+                    "text": "also",
+                    "pb": "AM-DIS",
+                    "vn": "",
+                    "description": "discourse",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "said",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Topic <-> Utterance",
+                    "start": 3,
+                    "end": 14,
+                    "text": "this court did not give the lawyers for the defense due procedure",
+                    "pb": "A1",
+                    "vn": "Topic",
+                    "description": "utterance",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "give-13.1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=give-13.1)), EVENT(e2 = VnClassXml(verbNetId=give-13.1)), EVENT(e3 = VnClassXml(verbNetId=give-13.1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Possession[EVENT(e1 = VnClassXml(verbNetId=give-13.1)), Agent(A0[this court]), Theme(A1[due procedure])]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "this court",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "due procedure",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        },
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Has Possession[EVENT(e1 = VnClassXml(verbNetId=give-13.1)), Recipient(A2[the lawyers for the defense]), Theme(A1[due procedure])]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "the lawyers for the defense",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "due procedure",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Transfer[EVENT(e2 = VnClassXml(verbNetId=give-13.1)), Agent(A0[this court]), Theme(A1[due procedure]), Recipient(A2[the lawyers for the defense])]",
+                            "predicateType": "Transfer",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "this court",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "due procedure",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "the lawyers for the defense",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has Possession[EVENT(e3 = VnClassXml(verbNetId=give-13.1)), Recipient(A2[the lawyers for the defense]), Theme(A1[due procedure])]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "the lawyers for the defense",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "due procedure",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        },
+                        {
+                            "eventName": "e3",
+                            "predicate": "!Has Possession[EVENT(e3 = VnClassXml(verbNetId=give-13.1)), Agent(A0[this court]), Theme(A1[due procedure])]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "this court",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "due procedure",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> giver",
+                    "start": 3,
+                    "end": 4,
+                    "text": "this court",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "giver",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-NEG",
+                    "start": 6,
+                    "end": 6,
+                    "text": "not",
+                    "pb": "AM-NEG",
+                    "vn": "",
+                    "description": "negation",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 7,
+                    "end": 7,
+                    "text": "give",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Recipient <-> entity given to",
+                    "start": 8,
+                    "end": 12,
+                    "text": "the lawyers for the defense",
+                    "pb": "A2",
+                    "vn": "Recipient",
+                    "description": "entity given to",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing given",
+                    "start": 13,
+                    "end": 14,
+                    "text": "due procedure",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing given",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

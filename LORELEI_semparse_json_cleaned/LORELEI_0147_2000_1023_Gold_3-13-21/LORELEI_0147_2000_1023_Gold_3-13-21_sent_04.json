@@ -1,0 +1,432 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 6,
+            "text": "Part of the purpose of this historic",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "36.3-1",
+            "start": 7,
+            "end": 7,
+            "text": "visit",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 8,
+            "end": 8,
+            "text": "is",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 9,
+            "end": 9,
+            "text": "to",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "50",
+            "start": 10,
+            "end": 10,
+            "text": "lay",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 11,
+            "end": 25,
+            "text": "the groundwork for a possible trip to North Korea by President Clinton before his term",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 3,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "55.4-1-1",
+            "start": 26,
+            "end": 26,
+            "text": "ends",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 27,
+            "end": 27,
+            "text": ".",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "meet-36.3-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Social Interaction[EVENT(e1 = VnClassXml(verbNetId=meet-36.3-1)), Agent(?), Co Agent(?)]",
+                            "predicateType": "Social Interaction",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Co Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-ADJ",
+                    "start": 6,
+                    "end": 6,
+                    "text": "historic",
+                    "pb": "AM-ADJ",
+                    "vn": "",
+                    "description": "adjectival",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 7,
+                    "end": 7,
+                    "text": "visit",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[Part of the purpose of this historic visit]), Attribute(A2[to lay the groundwork for a possible trip to North Korea by President Clinton before his term ends])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "Part of the purpose of this historic visit",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "to lay the groundwork for a possible trip to North Korea by President Clinton before his term ends",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 0,
+                    "end": 7,
+                    "text": "Part of the purpose of this historic visit",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 8,
+                    "end": 8,
+                    "text": "is",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 9,
+                    "end": 26,
+                    "text": "to lay the groundwork for a possible trip to North Korea by President Clinton before his term ends",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "assuming_position-50",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Has Position[EVENT(e1 = VnClassXml(verbNetId=assuming_position-50)), Agent(A1[the groundwork for a possible trip to North Korea by President Clinton before his term ends]), Verbspecific(V_Position)]",
+                            "predicateType": "Has Position",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "the groundwork for a possible trip to North Korea by President Clinton before his term ends",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "V_Position",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "\u00eb2",
+                    "predicates": [
+                        {
+                            "eventName": "\u00eb2",
+                            "predicate": "Body Motion[EVENT(\u00eb2 = VnClassXml(verbNetId=assuming_position-50)), Agent(A1[the groundwork for a possible trip to North Korea by President Clinton before his term ends])]",
+                            "predicateType": "Body Motion",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "the groundwork for a possible trip to North Korea by President Clinton before his term ends",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has Position[EVENT(e3 = VnClassXml(verbNetId=assuming_position-50)), Agent(A1[the groundwork for a possible trip to North Korea by President Clinton before his term ends]), Verbspecific(V_Position)]",
+                            "predicateType": "Has Position",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "the groundwork for a possible trip to North Korea by President Clinton before his term ends",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "V_Position",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        },
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has Location[EVENT(e3 = VnClassXml(verbNetId=assuming_position-50)), Agent(A1[the groundwork for a possible trip to North Korea by President Clinton before his term ends]), Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "the groundwork for a possible trip to North Korea by President Clinton before his term ends",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 10,
+                    "end": 10,
+                    "text": "lay",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Agent <-> entity in the position",
+                    "start": 11,
+                    "end": 26,
+                    "text": "the groundwork for a possible trip to North Korea by President Clinton before his term ends",
+                    "pb": "A1",
+                    "vn": "Agent",
+                    "description": "entity in the position",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "stop-55.4-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "End[EVENT(E = VnClassXml(verbNetId=stop-55.4-1-1)), Theme(A1[his term])]",
+                        "predicateType": "End",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "his term",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> Thing ending",
+                    "start": 24,
+                    "end": 25,
+                    "text": "his term",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing ending",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 26,
+                    "end": 26,
+                    "text": "ends",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+

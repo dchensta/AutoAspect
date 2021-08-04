@@ -1,0 +1,944 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 15,
+            "text": "Jesse Helms , the Conservative and powerful Chairman of the Senate Foreign Relations Committee , has",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "29.90-1",
+            "start": 16,
+            "end": 16,
+            "text": "made",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 17,
+            "end": 17,
+            "text": "it",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "45.4",
+            "start": 18,
+            "end": 18,
+            "text": "clear",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 19,
+            "end": 22,
+            "text": "the Romes statuette would",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 23,
+            "end": 23,
+            "text": "be",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 3,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "42.4-1",
+            "start": 24,
+            "end": 24,
+            "text": "dead",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 25,
+            "end": 29,
+            "text": "on arrival if it were",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 4,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "11.3-1",
+            "start": 30,
+            "end": 30,
+            "text": "brought",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 31,
+            "end": 31,
+            "text": "to Congress for ratification .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "render-29.90-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=render-29.90-1)), EVENT(e2 = VnClassXml(verbNetId=render-29.90-1)), EVENT(e3 = VnClassXml(verbNetId=render-29.90-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Has State[EVENT(e1 = VnClassXml(verbNetId=render-29.90-1)), Patient(A1[it clear the Romes statuette would be dead on arrival if it were brought to Congress for ratification]), Verbspecific(Result)]",
+                            "predicateType": "Has State",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "it clear the Romes statuette would be dead on arrival if it were brought to Congress for ratification",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Result",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Do[EVENT(e2 = VnClassXml(verbNetId=render-29.90-1)), Causer(A0[Jesse Helms , the Conservative and powerful Chairman of the Senate Foreign Relations Committee ,])]",
+                            "predicateType": "Do",
+                            "args": [
+                                {
+                                    "type": "Causer",
+                                    "value": "Jesse Helms , the Conservative and powerful Chairman of the Senate Foreign Relations Committee ,",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has State[EVENT(e3 = VnClassXml(verbNetId=render-29.90-1)), Patient(A1[it clear the Romes statuette would be dead on arrival if it were brought to Congress for ratification]), Result(?)]",
+                            "predicateType": "Has State",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "it clear the Romes statuette would be dead on arrival if it were brought to Congress for ratification",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Result",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Causer",
+                    "start": 0,
+                    "end": 14,
+                    "text": "Jesse Helms , the Conservative and powerful Chairman of the Senate Foreign Relations Committee ,",
+                    "pb": "A0",
+                    "vn": "Causer",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 16,
+                    "end": 16,
+                    "text": "made",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Patient",
+                    "start": 17,
+                    "end": 34,
+                    "text": "it clear the Romes statuette would be dead on arrival if it were brought to Congress for ratification",
+                    "pb": "A1",
+                    "vn": "Patient",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "other_cos-45.4",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "!Has State[EVENT(e1 = VnClassXml(verbNetId=other_cos-45.4)), Patient(A1[the Romes statuette would be dead on arrival if it were brought to Congress for ratification]), Verbspecific(V_Final_State)]",
+                            "predicateType": "Has State",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "the Romes statuette would be dead on arrival if it were brought to Congress for ratification",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "V_Final_State",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has State[EVENT(e2 = VnClassXml(verbNetId=other_cos-45.4)), Patient(A1[the Romes statuette would be dead on arrival if it were brought to Congress for ratification]), Verbspecific(V_Final_State)]",
+                            "predicateType": "Has State",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "the Romes statuette would be dead on arrival if it were brought to Congress for ratification",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "V_Final_State",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 18,
+                    "end": 18,
+                    "text": "clear",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Patient <-> thing made clean",
+                    "start": 19,
+                    "end": 34,
+                    "text": "the Romes statuette would be dead on arrival if it were brought to Congress for ratification",
+                    "pb": "A1",
+                    "vn": "Patient",
+                    "description": "thing made clean",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[the Romes statuette]), Attribute(A2[dead])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "the Romes statuette",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "dead",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 19,
+                    "end": 21,
+                    "text": "the Romes statuette",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-MOD",
+                    "start": 22,
+                    "end": 22,
+                    "text": "would",
+                    "pb": "AM-MOD",
+                    "vn": "",
+                    "description": "modal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 23,
+                    "end": 23,
+                    "text": "be",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 24,
+                    "end": 24,
+                    "text": "dead",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 25,
+                    "end": 26,
+                    "text": "on arrival",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-ADV",
+                    "start": 27,
+                    "end": 34,
+                    "text": "if it were brought to Congress for ratification",
+                    "pb": "AM-ADV",
+                    "vn": "",
+                    "description": "adverbial",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        },
+        {
+            "sense": "die-42.4-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Alive[EVENT(e1 = VnClassXml(verbNetId=die-42.4-1)), Patient(A1[the Romes statuette])]",
+                            "predicateType": "Alive",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "the Romes statuette",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "!Alive[EVENT(e2 = VnClassXml(verbNetId=die-42.4-1)), Patient(A1[the Romes statuette])]",
+                            "predicateType": "Alive",
+                            "args": [
+                                {
+                                    "type": "Patient",
+                                    "value": "the Romes statuette",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Patient",
+                    "start": 19,
+                    "end": 21,
+                    "text": "the Romes statuette",
+                    "pb": "A1",
+                    "vn": "Patient",
+                    "description": "",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-MOD",
+                    "start": 22,
+                    "end": 22,
+                    "text": "would",
+                    "pb": "AM-MOD",
+                    "vn": "",
+                    "description": "modal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 24,
+                    "end": 24,
+                    "text": "dead",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 25,
+                    "end": 26,
+                    "text": "on arrival",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-ADV",
+                    "start": 27,
+                    "end": 34,
+                    "text": "if it were brought to Congress for ratification",
+                    "pb": "AM-ADV",
+                    "vn": "",
+                    "description": "adverbial",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        },
+        {
+            "sense": "bring-11.3-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=bring-11.3-1)), EVENT(e3 = VnClassXml(verbNetId=bring-11.3-1)), EVENT(\u00eb4 = VnClassXml(verbNetId=bring-11.3-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            },
+                            {
+                                "type": "Event",
+                                "value": "\u00eb4",
+                                "eventIndex": 3
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Co Temporal[EVENT(E = VnClassXml(verbNetId=bring-11.3-1)), EVENT(\u00eb4 = VnClassXml(verbNetId=bring-11.3-1)), EVENT(\u00eb5 = VnClassXml(verbNetId=bring-11.3-1))]",
+                        "predicateType": "Co Temporal",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "\u00eb4",
+                                "eventIndex": 3
+                            },
+                            {
+                                "type": "Event",
+                                "value": "\u00eb5",
+                                "eventIndex": 4
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Location[EVENT(e1 = VnClassXml(verbNetId=bring-11.3-1)), Theme(A1[it]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "it",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Location[EVENT(e2 = VnClassXml(verbNetId=bring-11.3-1)), Instrument(?), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Instrument",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Do[EVENT(e3 = VnClassXml(verbNetId=bring-11.3-1)), Agent(?)]",
+                            "predicateType": "Do",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        },
+                        {
+                            "eventName": "e3",
+                            "predicate": "Utilize[EVENT(e3 = VnClassXml(verbNetId=bring-11.3-1)), Agent(?), Instrument(?)]",
+                            "predicateType": "Utilize",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Instrument",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 3,
+                    "name": "\u00eb4",
+                    "predicates": [
+                        {
+                            "eventName": "\u00eb4",
+                            "predicate": "Motion[EVENT(\u00eb4 = VnClassXml(verbNetId=bring-11.3-1)), Theme(A1[it]), Verbspecific(Trajectory)]",
+                            "predicateType": "Motion",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "it",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Trajectory",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 3
+                        },
+                        {
+                            "eventName": "\u00eb4",
+                            "predicate": "!Has Location[EVENT(\u00eb4 = VnClassXml(verbNetId=bring-11.3-1)), Theme(A1[it]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "it",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 3
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 4,
+                    "name": "\u00eb5",
+                    "predicates": [
+                        {
+                            "eventName": "\u00eb5",
+                            "predicate": "Motion[EVENT(\u00eb5 = VnClassXml(verbNetId=bring-11.3-1)), Instrument(?), Verbspecific(Trajectory)]",
+                            "predicateType": "Motion",
+                            "args": [
+                                {
+                                    "type": "Instrument",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Trajectory",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 4
+                        },
+                        {
+                            "eventName": "\u00eb5",
+                            "predicate": "!Has Location[EVENT(\u00eb5 = VnClassXml(verbNetId=bring-11.3-1)), Instrument(?), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Instrument",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 4
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 5,
+                    "name": "e6",
+                    "predicates": [
+                        {
+                            "eventName": "e6",
+                            "predicate": "Has Location[EVENT(e6 = VnClassXml(verbNetId=bring-11.3-1)), Theme(A1[it]), Destination(A2[to Congress])]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "it",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Destination",
+                                    "value": "to Congress",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 5
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 6,
+                    "name": "e7",
+                    "predicates": [
+                        {
+                            "eventName": "e7",
+                            "predicate": "Has Location[EVENT(e7 = VnClassXml(verbNetId=bring-11.3-1)), Instrument(?), Destination(A2[to Congress])]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Instrument",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Destination",
+                                    "value": "to Congress",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 6
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing brought",
+                    "start": 28,
+                    "end": 28,
+                    "text": "it",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing brought",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 30,
+                    "end": 30,
+                    "text": "brought",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Destination <-> benefactive or destination brought-for, brought-to,",
+                    "start": 31,
+                    "end": 32,
+                    "text": "to Congress",
+                    "pb": "A2",
+                    "vn": "Destination",
+                    "description": "benefactive or destination brought-for, brought-to,",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-PRP",
+                    "start": 33,
+                    "end": 34,
+                    "text": "for ratification",
+                    "pb": "AM-PRP",
+                    "vn": "",
+                    "description": "purpose",
+                    "predicate": false,
+                    "modifier": true
+                }
+            ]
+        }
+    ]
+}
+

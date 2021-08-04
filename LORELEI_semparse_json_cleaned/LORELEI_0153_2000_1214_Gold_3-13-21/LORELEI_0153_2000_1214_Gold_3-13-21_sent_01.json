@@ -1,0 +1,166 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "Edmund Pope",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "30.4",
+            "start": 2,
+            "end": 2,
+            "text": "tasted",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 3,
+            "text": "freedom today for the first time in more than eight months .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "stimulus_subject-30.4",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Perceive[EVENT(e1 = VnClassXml(verbNetId=stimulus_subject-30.4)), Experiencer(?), Stimulus(A1[freedom])]",
+                            "predicateType": "Perceive",
+                            "args": [
+                                {
+                                    "type": "Experiencer",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Stimulus",
+                                    "value": "freedom",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        },
+                        {
+                            "eventName": "e1",
+                            "predicate": "In Reaction To[EVENT(e1 = VnClassXml(verbNetId=stimulus_subject-30.4)), Stimulus(A1[freedom])]",
+                            "predicateType": "In Reaction To",
+                            "args": [
+                                {
+                                    "type": "Stimulus",
+                                    "value": "freedom",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0",
+                    "start": 0,
+                    "end": 1,
+                    "text": "Edmund Pope",
+                    "pb": "A0",
+                    "vn": "",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "tasted",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Stimulus <-> thing with flavor",
+                    "start": 3,
+                    "end": 3,
+                    "text": "freedom",
+                    "pb": "A1",
+                    "vn": "Stimulus",
+                    "description": "thing with flavor",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 4,
+                    "end": 4,
+                    "text": "today",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "modifier": true,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 5,
+                    "end": 13,
+                    "text": "for the first time in more than eight months",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "modifier": true,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+

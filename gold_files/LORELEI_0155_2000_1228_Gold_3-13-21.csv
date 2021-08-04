@@ -1,0 +1,123 @@
+﻿#,Sentence,Event,Co-reference,Aspect
+1,"In 1998, the United States voted against the creation of the World's first permanent International War Crimes Court.",,,
+,,vote-01,,Performance
+,,create-01,,Process
+2,President Clinton still has a chance to sign the treaty creating the Court before a final deadline this Sunday.,,,
+,,have-02,,State
+,,sign-02,,Performance
+,,create-02,,Performance
+3,"Advocates are pressing him to do just that, but Conservatives in Congress and Pentagon officials don't want the US to join the treaty.",,,
+,,press-03,,Activity
+,,that-03,sign-02,Performance
+,,want-03,,State
+,,join-03,,Performance
+4,The World's Jeb Sharp explains why.,,,
+,,explain-04,,Performance
+5,"Jesse Helms, the Conservative and powerful Chairman of the Senate Foreign Relations Committee, has made it clear the Rome's statuette would be dead on arrival if it were brought to Congress for ratification.",,,
+,,make-clear-05,,Performance
+,,dead-05,,State
+,,arrive-05,,Process
+,,bring-05,,Performance
+,,ratify-05,,Process
+6,But proponents of the permanent International Criminal Court would still like to see President Clinton at least sign the treaty before the New Year's eve deadline.,,,
+,,like-06,,State
+,,see-06,,State
+,,sign-06,sign-02,Performance
+7,Richard Dicker of Human Rights Watch says Clinton's signature would be an important symbolic gesture.,,,
+,,say-07,,Performance
+,,sign-07,sign-06,Process
+,,be_important-07,,State
+,,gesture-07,sign-07,Process
+8,"What he will accomplish is making a clear statement that the United States not only in the former Yugoslavia, not only in Rwanda, not only in Cambodia, not only in Sierra Leone, where the administration has supported efforts at justice, but worldwide the United States supports the rule of law and supports holding those accused of genocide to account under the highest standards of due process.",,,
+,,accomplish-08,,Performance
+,,make-statement-08,,Performance
+,,support-08-01,,State
+,,effort-08,,Process
+,,support-08-02,,State
+,,support-08-03,,State
+,,hold-to-account-08,,Performance
+,,accuse-08,,Performance
+,,genocide-08,,Process
+9,But the opposition here in the United States is intense.,,,
+,,opposition-09,,Process
+,,intense-09,,State
+10,It comes mainly from the Pentagon where US military officials fear the Court will leave Americans vulnerable to politically motivated prosecutions.,,,
+,,it-10,opposition-09,Process
+,,come-from-10,,State
+,,fear-10,,State
+,,leave_vulnerable-10,,Performance
+,,prosecute-10,,Process
+11,"Negotiators have tried to include safeguards in the treaty to address those fears, but stop short of exempting US personnel from prosecution.",,,
+,,try-11,,State
+,,include-11,,Performance
+,,address-11,,Performance
+,,stop-short-11,,Performance
+,,exempt-11,,Performance
+,,prosecute-11,,Process
+12,John Bolton of the American Enterprise Institute shares the Pentagon's objections.,,,
+,,share-12,,State
+,,object-12,,Process
+13,I think there is every prospect such a court and its prosecutor would be highly politicized and the principal target of a court like this might well turn out to be the United States or Israel or other countries like that.,,,
+,,be_politicized-13,,State
+,,turn-out_be-target-13,,State
+14,"Bolton says that almost happened at the War Crimes Tribunal for the former Yugoslavia in The Hague, when Chief Prosecutor Carla Delponte briefly contemplated an investigation of NATO's bombing campaign against Serbia in 1999.",,,
+,,say-14,,Performance
+,,that-14,,Process
+,,contemplate-14,,State
+,,investigate-14,,Process
+,,campaign-14,,Process
+15,But proponents of the court say it's healthy for the United States and its allies to come under the same scrutiny as other countries.,,,
+,,say-15,,Performance
+,,healthy-15,,State
+,,come-15,,Performance
+,,scrutiny-15,,Process
+16,Richard Dicker of Human Rights Watch says Delponte's handling of the NATO case was exemplary.,,,
+,,say-16,,Performance
+,,handle-16,,Process
+,,exemplary-16,,State
+17,Carla Delponte was acting as any responsible prosecutor must when she receives credible allegations of wrongdoing.,,,
+,,act-17-01,,Performance
+,,act-17-02,,Performance
+,,receive-17,,Habitual
+,,allegation-17,,Process
+,,wrongdoing-17,,Process
+18,She looked into those allegations and then after an appropriate investigation she dismissed them.,,,
+,,look-into-18,,Performance
+,,allegation-18,,Process
+,,investigate-18,,Process
+,,dismiss-18,,Performance
+19,Richard Dicker says President Clinton should keep the promise he made to the Rwandan people in 1998 when he told survivors of the genocide there the United States would support the International Court.,,,
+,,say-19,,Performance
+,,keep-19,,Performance
+,,promise-19,,Performance
+,,tell-19,,Performance
+,,genocide-19,,Process
+,,support-19,,State
+20,But John Bolton of the American Enterprise Institute says a Clinton signature in the face of stiff domestic opposition would be meaningless.,,,
+,,say-20,,Performance
+,,sign-20,gesture-07,Process
+,,oppose-20,,Process
+,,meaningless-20,,State
+21,"I think it's a symbolic act that doesn't achieve much, but I don't think anybody internationally should think that whatever President Clinton does will have the slightest impact on the next administration.",,,
+,,it-21,sign-20,Process
+,,achieve-21,,Performance
+,,do-21,,Performance
+,,impact-21,,Process
+22,"Despite American objections, the International Criminal Court enjoys wide support worldwide and among major US allies.",,,
+,,object-22,,Process
+,,enjoy-22,,State
+23,"131 countries have signed the treaty, 7 today and 25 have ratified it.",,,
+,,sign-01-23,,Performance
+,,sign-02-23,,Performance
+,,ratify-23,,Performance
+24,60 nations in all must ratify the treaty for the International Criminal Court to come into existence.,,,
+,,ratify-24,,Performance
+,,come-into-existence-24,,Performance
+25,"That's expected to happen, with or without US support, in 2002.",,,
+,,that-25,come-into-existence-24,Process
+,,expect-25,,State
+26,"For The World, I'm Jeb Sharp.",,,
+,,be_Jeb_Sharp-26,,State
+27,"This is PRI, Public Radio International.",,,
+,,be_PRI-27,,State
+,END_FILE,,,

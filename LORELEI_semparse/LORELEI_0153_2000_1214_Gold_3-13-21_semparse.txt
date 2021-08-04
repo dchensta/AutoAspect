@@ -1,0 +1,2375 @@
+SENTENCE: Edmund Pope tasted freedom today for the first time in more than eight months.
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "Edmund Pope",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "30.4",
+            "start": 2,
+            "end": 2,
+            "text": "tasted",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 3,
+            "text": "freedom today for the first time in more than eight months .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "stimulus_subject-30.4",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Perceive[EVENT(e1 = VnClassXml(verbNetId=stimulus_subject-30.4)), Experiencer(?), Stimulus(A1[freedom])]",
+                            "predicateType": "Perceive",
+                            "args": [
+                                {
+                                    "type": "Experiencer",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Stimulus",
+                                    "value": "freedom",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        },
+                        {
+                            "eventName": "e1",
+                            "predicate": "In Reaction To[EVENT(e1 = VnClassXml(verbNetId=stimulus_subject-30.4)), Stimulus(A1[freedom])]",
+                            "predicateType": "In Reaction To",
+                            "args": [
+                                {
+                                    "type": "Stimulus",
+                                    "value": "freedom",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0",
+                    "start": 0,
+                    "end": 1,
+                    "text": "Edmund Pope",
+                    "pb": "A0",
+                    "vn": "",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "tasted",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Stimulus <-> thing with flavor",
+                    "start": 3,
+                    "end": 3,
+                    "text": "freedom",
+                    "pb": "A1",
+                    "vn": "Stimulus",
+                    "description": "thing with flavor",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 4,
+                    "end": 4,
+                    "text": "today",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "modifier": true,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 5,
+                    "end": 13,
+                    "text": "for the first time in more than eight months",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "modifier": true,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+
+------------------------------------------------------
+SENTENCE: Pope is the American businessman who was convicted last week on spying charges and sentenced to 20 years in a Russian prison.
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 0,
+            "text": "Pope",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 1,
+            "end": 1,
+            "text": "is",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 2,
+            "end": 2,
+            "text": "the American businessman who was convicted last week on spying charges and sentenced to 20 years in a Russian prison .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[Pope]), Attribute(A2[the American businessman who was convicted last week on spying charges and sentenced to 20 years in a Russian prison])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "Pope",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "the American businessman who was convicted last week on spying charges and sentenced to 20 years in a Russian prison",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 0,
+                    "end": 0,
+                    "text": "Pope",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 1,
+                    "end": 1,
+                    "text": "is",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 2,
+                    "end": 21,
+                    "text": "the American businessman who was convicted last week on spying charges and sentenced to 20 years in a Russian prison",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "modifier": false,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+
+------------------------------------------------------
+SENTENCE: He denied any wrongdoing.
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 0,
+            "text": "He",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "29.5",
+            "start": 1,
+            "end": 1,
+            "text": "denied",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 2,
+            "end": 2,
+            "text": "any wrongdoing .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "conjecture-29.5",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Believe[EVENT(E = VnClassXml(verbNetId=conjecture-29.5)), Agent(A0[He]), Theme(A1[any wrongdoing]), Predicate(?)]",
+                        "predicateType": "Believe",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "He",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Theme",
+                                "value": "any wrongdoing",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Predicate",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> denier",
+                    "start": 0,
+                    "end": 0,
+                    "text": "He",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "denier",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 1,
+                    "end": 1,
+                    "text": "denied",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing denied",
+                    "start": 2,
+                    "end": 3,
+                    "text": "any wrongdoing",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing denied",
+                    "modifier": false,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+
+------------------------------------------------------
+SENTENCE: Russian President Vladimir Putin pardoned him for health reasons.
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 3,
+            "text": "Russian President Vladimir Putin",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "33.1-1",
+            "start": 4,
+            "end": 4,
+            "text": "pardoned",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 5,
+            "end": 5,
+            "text": "him for health reasons .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "judgment-33.1-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Declare[EVENT(e1 = VnClassXml(verbNetId=judgment-33.1-1)), Agent(A0[Russian President Vladimir Putin]), Theme(A1[him]), Attribute(?)]",
+                            "predicateType": "Declare",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Russian President Vladimir Putin",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "him",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Attribute",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> pardoner",
+                    "start": 0,
+                    "end": 3,
+                    "text": "Russian President Vladimir Putin",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "pardoner",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 4,
+                    "end": 4,
+                    "text": "pardoned",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> guilty party",
+                    "start": 5,
+                    "end": 5,
+                    "text": "him",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "guilty party",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-CAU",
+                    "start": 6,
+                    "end": 8,
+                    "text": "for health reasons",
+                    "pb": "AM-CAU",
+                    "vn": "",
+                    "description": "cause",
+                    "modifier": true,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+
+------------------------------------------------------
+SENTENCE: Pope was flown to the U.S. military base at Ramstein, Germany.
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "Pope was",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "51.4.2-1",
+            "start": 2,
+            "end": 2,
+            "text": "flown",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 3,
+            "text": "to the US military base at Ramstein , Germany .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "nonvehicle-51.4.2-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), EVENT(e3 = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), EVENT(\u00eb4 = VnClassXml(verbNetId=nonvehicle-51.4.2-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            },
+                            {
+                                "type": "Event",
+                                "value": "\u00eb4",
+                                "eventIndex": 3
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), EVENT(e3 = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), EVENT(\u00eb5 = VnClassXml(verbNetId=nonvehicle-51.4.2-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            },
+                            {
+                                "type": "Event",
+                                "value": "\u00eb5",
+                                "eventIndex": 4
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Co Temporal[EVENT(E = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), EVENT(\u00eb4 = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), EVENT(\u00eb5 = VnClassXml(verbNetId=nonvehicle-51.4.2-1))]",
+                        "predicateType": "Co Temporal",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "\u00eb4",
+                                "eventIndex": 3
+                            },
+                            {
+                                "type": "Event",
+                                "value": "\u00eb5",
+                                "eventIndex": 4
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Location[EVENT(e1 = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), Theme(A1[Pope]), Verbspecific(Initial_Location)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "Pope",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Initial_Location",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Location[EVENT(e2 = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), Agent(?), Verbspecific(Initial_Location)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Initial_Location",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Do[EVENT(e3 = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), Agent(?)]",
+                            "predicateType": "Do",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 3,
+                    "name": "\u00eb4",
+                    "predicates": [
+                        {
+                            "eventName": "\u00eb4",
+                            "predicate": "Motion[EVENT(\u00eb4 = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), Theme(A1[Pope]), Trajectory(AM-DIR[to the US military base at Ramstein , Germany])]",
+                            "predicateType": "Motion",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "Pope",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Trajectory",
+                                    "value": "to the US military base at Ramstein , Germany",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 3
+                        },
+                        {
+                            "eventName": "\u00eb4",
+                            "predicate": "!Has Location[EVENT(\u00eb4 = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), Theme(A1[Pope]), Verbspecific(Initial_Location)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "Pope",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Initial_Location",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 3
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 4,
+                    "name": "\u00eb5",
+                    "predicates": [
+                        {
+                            "eventName": "\u00eb5",
+                            "predicate": "Motion[EVENT(\u00eb5 = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), Agent(?), Trajectory(AM-DIR[to the US military base at Ramstein , Germany])]",
+                            "predicateType": "Motion",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Trajectory",
+                                    "value": "to the US military base at Ramstein , Germany",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 4
+                        },
+                        {
+                            "eventName": "\u00eb5",
+                            "predicate": "!Has Location[EVENT(\u00eb5 = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), Agent(?), Verbspecific(Initial_Location)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Initial_Location",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 4
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 5,
+                    "name": "e6",
+                    "predicates": [
+                        {
+                            "eventName": "e6",
+                            "predicate": "Has Location[EVENT(e6 = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), Theme(A1[Pope]), Verbspecific(Destination)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "Pope",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Destination",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 5
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 6,
+                    "name": "e7",
+                    "predicates": [
+                        {
+                            "eventName": "e7",
+                            "predicate": "Has Location[EVENT(e7 = VnClassXml(verbNetId=nonvehicle-51.4.2-1)), Agent(?), Verbspecific(Destination)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Destination",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 6
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> passenger, cargo",
+                    "start": 0,
+                    "end": 0,
+                    "text": "Pope",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "passenger, cargo",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "flown",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-DIR <-> Trajectory",
+                    "start": 3,
+                    "end": 11,
+                    "text": "to the US military base at Ramstein , Germany",
+                    "pb": "AM-DIR",
+                    "vn": "Trajectory",
+                    "description": "direction",
+                    "modifier": true,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+
+------------------------------------------------------
+SENTENCE: He will spend the next several days at the medical center there before he returns home with his wife Sherry.
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "He will",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "66-1",
+            "start": 2,
+            "end": 2,
+            "text": "spend",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 13,
+            "text": "the next several days at the medical center there before he",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "11.1",
+            "start": 14,
+            "end": 14,
+            "text": "returns",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 15,
+            "end": 15,
+            "text": "home with his wife Sherry .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "consume-66-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=consume-66-1)), EVENT(e2 = VnClassXml(verbNetId=consume-66-1)), EVENT(e3 = VnClassXml(verbNetId=consume-66-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Possession[EVENT(e1 = VnClassXml(verbNetId=consume-66-1)), Agent(A0[He]), Asset(?)]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "He",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Asset",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Spend[EVENT(e2 = VnClassXml(verbNetId=consume-66-1)), Agent(A0[He]), Asset(?), Goal(AM-LOC[at the medical center there])]",
+                            "predicateType": "Spend",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "He",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Asset",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Goal",
+                                    "value": "at the medical center there",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "!Has Possession[EVENT(e3 = VnClassXml(verbNetId=consume-66-1)), Agent(A0[He]), Asset(?)]",
+                            "predicateType": "Has Possession",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "He",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Asset",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 2
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> bider, waiter",
+                    "start": 0,
+                    "end": 0,
+                    "text": "He",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "bider, waiter",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-MOD",
+                    "start": 1,
+                    "end": 1,
+                    "text": "will",
+                    "pb": "AM-MOD",
+                    "vn": "",
+                    "description": "modal",
+                    "modifier": true,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "spend",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> unit of time",
+                    "start": 3,
+                    "end": 6,
+                    "text": "the next several days",
+                    "pb": "A1",
+                    "vn": "",
+                    "description": "unit of time",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-LOC <-> Goal",
+                    "start": 7,
+                    "end": 11,
+                    "text": "at the medical center there",
+                    "pb": "AM-LOC",
+                    "vn": "Goal",
+                    "description": "location",
+                    "modifier": true,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 12,
+                    "end": 19,
+                    "text": "before he returns home with his wife Sherry",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "modifier": true,
+                    "predicate": false
+                }
+            ]
+        },
+        {
+            "sense": "send-11.1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=send-11.1)), EVENT(e2 = VnClassXml(verbNetId=send-11.1)), EVENT(\u00eb3 = VnClassXml(verbNetId=send-11.1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            },
+                            {
+                                "type": "Event",
+                                "value": "\u00eb3",
+                                "eventIndex": 2
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Location[EVENT(e1 = VnClassXml(verbNetId=send-11.1)), Theme(A1[he]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "he",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Do[EVENT(e2 = VnClassXml(verbNetId=send-11.1)), Agent(?)]",
+                            "predicateType": "Do",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "\u00eb3",
+                    "predicates": [
+                        {
+                            "eventName": "\u00eb3",
+                            "predicate": "Motion[EVENT(\u00eb3 = VnClassXml(verbNetId=send-11.1)), Theme(A1[he]), Verbspecific(Trajectory)]",
+                            "predicateType": "Motion",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "he",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Verbspecific",
+                                    "value": "Trajectory",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 2
+                        },
+                        {
+                            "eventName": "\u00eb3",
+                            "predicate": "!Has Location[EVENT(\u00eb3 = VnClassXml(verbNetId=send-11.1)), Theme(A1[he]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "he",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 2
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 3,
+                    "name": "e4",
+                    "predicates": [
+                        {
+                            "eventName": "e4",
+                            "predicate": "Has Location[EVENT(e4 = VnClassXml(verbNetId=send-11.1)), Theme(A1[he]), Destination(A4[home])]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "he",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Destination",
+                                    "value": "home",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 3
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing given",
+                    "start": 13,
+                    "end": 13,
+                    "text": "he",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing given",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 14,
+                    "end": 14,
+                    "text": "returns",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A4 <-> Destination",
+                    "start": 15,
+                    "end": 15,
+                    "text": "home",
+                    "pb": "A4",
+                    "vn": "Destination",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-COM",
+                    "start": 16,
+                    "end": 19,
+                    "text": "with his wife Sherry",
+                    "pb": "AM-COM",
+                    "vn": "",
+                    "description": "comitative",
+                    "modifier": true,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+
+------------------------------------------------------
+SENTENCE: Pope was in remission from a rare form of bone cancer when he was arrested in Russia.
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 0,
+            "text": "Pope",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 1,
+            "end": 1,
+            "text": "was",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 2,
+            "end": 13,
+            "text": "in remission from a rare form of bone cancer when he was",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "33.2-1",
+            "start": 14,
+            "end": 14,
+            "text": "arrested",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 15,
+            "end": 15,
+            "text": "in Russia .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[Pope]), Attribute(A2[in remission from a rare form of bone cancer])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "Pope",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "in remission from a rare form of bone cancer",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 0,
+                    "end": 0,
+                    "text": "Pope",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 1,
+                    "end": 1,
+                    "text": "was",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 2,
+                    "end": 10,
+                    "text": "in remission from a rare form of bone cancer",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 11,
+                    "end": 16,
+                    "text": "when he was arrested in Russia",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "modifier": true,
+                    "predicate": false
+                }
+            ]
+        },
+        {
+            "sense": "prosecute-33.2-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Charge[EVENT(e1 = VnClassXml(verbNetId=prosecute-33.2-1)), Agent(?), Patient(A1[he]), Theme(?)]",
+                            "predicateType": "Charge",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Patient",
+                                    "value": "he",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 11,
+                    "end": 11,
+                    "text": "when",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "modifier": true,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Patient",
+                    "start": 12,
+                    "end": 12,
+                    "text": "he",
+                    "pb": "A1",
+                    "vn": "Patient",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 14,
+                    "end": 14,
+                    "text": "arrested",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-LOC",
+                    "start": 15,
+                    "end": 16,
+                    "text": "in Russia",
+                    "pb": "AM-LOC",
+                    "vn": "",
+                    "description": "location",
+                    "modifier": true,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+
+------------------------------------------------------
+SENTENCE: Doctors will examine him for signs that the cancer may have come back while he awaiting trial in a Russian jail.
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "Doctors will",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "35.4",
+            "start": 2,
+            "end": 2,
+            "text": "examine",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 10,
+            "text": "him for signs that the cancer may have",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "51.1-1",
+            "start": 11,
+            "end": 11,
+            "text": "come",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 12,
+            "end": 12,
+            "text": "back while he awaiting trial in a Russian jail .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "investigate-35.4",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Search[EVENT(e1 = VnClassXml(verbNetId=investigate-35.4)), Agent(A0[Doctors]), Location(A1[him]), Theme(A2[for signs that the cancer may have come back while he awaiting trial in a Russian jail])]",
+                            "predicateType": "Search",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "Doctors",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Location",
+                                    "value": "him",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Theme",
+                                    "value": "for signs that the cancer may have come back while he awaiting trial in a Russian jail",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> examiner",
+                    "start": 0,
+                    "end": 0,
+                    "text": "Doctors",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "examiner",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-MOD",
+                    "start": 1,
+                    "end": 1,
+                    "text": "will",
+                    "pb": "AM-MOD",
+                    "vn": "",
+                    "description": "modal",
+                    "modifier": true,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "examine",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Location <-> thing examined",
+                    "start": 3,
+                    "end": 3,
+                    "text": "him",
+                    "pb": "A1",
+                    "vn": "Location",
+                    "description": "thing examined",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Theme <-> in search of what",
+                    "start": 4,
+                    "end": 20,
+                    "text": "for signs that the cancer may have come back while he awaiting trial in a Russian jail",
+                    "pb": "A2",
+                    "vn": "Theme",
+                    "description": "in search of what",
+                    "modifier": false,
+                    "predicate": false
+                }
+            ]
+        },
+        {
+            "sense": "escape-51.1-1",
+            "mainEvent": null,
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Has Location[EVENT(e1 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[the cancer]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the cancer",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "\u00eb2",
+                    "predicates": [
+                        {
+                            "eventName": "\u00eb2",
+                            "predicate": "Motion[EVENT(\u00eb2 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[the cancer]), Trajectory(?)]",
+                            "predicateType": "Motion",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the cancer",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Trajectory",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 2,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "!Has Location[EVENT(e2 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[the cancer]), Initial Location(?)]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the cancer",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Initial Location",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": false,
+                            "eventIndex": 2
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 3,
+                    "name": "e3",
+                    "predicates": [
+                        {
+                            "eventName": "e3",
+                            "predicate": "Has Location[EVENT(e3 = VnClassXml(verbNetId=escape-51.1-1)), Theme(A1[the cancer]), Destination(AM-DIR[back])]",
+                            "predicateType": "Has Location",
+                            "args": [
+                                {
+                                    "type": "Theme",
+                                    "value": "the cancer",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Destination",
+                                    "value": "back",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 3
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> entity in motion / 'comer'",
+                    "start": 7,
+                    "end": 8,
+                    "text": "the cancer",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "entity in motion / 'comer'",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-MOD",
+                    "start": 9,
+                    "end": 9,
+                    "text": "may",
+                    "pb": "AM-MOD",
+                    "vn": "",
+                    "description": "modal",
+                    "modifier": true,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 11,
+                    "end": 11,
+                    "text": "come",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-DIR <-> Destination",
+                    "start": 12,
+                    "end": 12,
+                    "text": "back",
+                    "pb": "AM-DIR",
+                    "vn": "Destination",
+                    "description": "direction",
+                    "modifier": true,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-TMP",
+                    "start": 13,
+                    "end": 20,
+                    "text": "while he awaiting trial in a Russian jail",
+                    "pb": "AM-TMP",
+                    "vn": "",
+                    "description": "temporal",
+                    "modifier": true,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+
+------------------------------------------------------
+SENTENCE: A spokeswoman said that Pope was suffering from malnutrition and high blood pressure.
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 1,
+            "text": "A spokeswoman",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "37.7-1-1",
+            "start": 2,
+            "end": 2,
+            "text": "said",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 3,
+            "end": 5,
+            "text": "that Pope was",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "31.3",
+            "start": 6,
+            "end": 6,
+            "text": "suffering",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": true
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 7,
+            "end": 7,
+            "text": "from malnutrition and high blood pressure .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "say-37.7-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Has Information[EVENT(E = VnClassXml(verbNetId=say-37.7-1-1)), Agent(A0[A spokeswoman]), Topic(A1[that Pope was suffering from malnutrition and high blood pressure])]",
+                        "predicateType": "Has Information",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "A spokeswoman",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Topic",
+                                "value": "that Pope was suffering from malnutrition and high blood pressure",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "Cause[EVENT(E = VnClassXml(verbNetId=say-37.7-1-1)), EVENT(e1 = VnClassXml(verbNetId=say-37.7-1-1)), EVENT(e2 = VnClassXml(verbNetId=say-37.7-1-1))]",
+                        "predicateType": "Cause",
+                        "args": [
+                            {
+                                "type": "Event",
+                                "value": "e1",
+                                "eventIndex": 0
+                            },
+                            {
+                                "type": "Event",
+                                "value": "e2",
+                                "eventIndex": 1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [
+                {
+                    "eventIndex": 0,
+                    "name": "e1",
+                    "predicates": [
+                        {
+                            "eventName": "e1",
+                            "predicate": "Transfer Info[EVENT(e1 = VnClassXml(verbNetId=say-37.7-1-1)), Agent(A0[A spokeswoman]), Topic(A1[that Pope was suffering from malnutrition and high blood pressure]), Recipient(?)]",
+                            "predicateType": "Transfer Info",
+                            "args": [
+                                {
+                                    "type": "Agent",
+                                    "value": "A spokeswoman",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "that Pope was suffering from malnutrition and high blood pressure",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 0
+                        }
+                    ]
+                },
+                {
+                    "eventIndex": 1,
+                    "name": "e2",
+                    "predicates": [
+                        {
+                            "eventName": "e2",
+                            "predicate": "Has Information[EVENT(e2 = VnClassXml(verbNetId=say-37.7-1-1)), Recipient(?), Topic(A1[that Pope was suffering from malnutrition and high blood pressure])]",
+                            "predicateType": "Has Information",
+                            "args": [
+                                {
+                                    "type": "Recipient",
+                                    "value": "",
+                                    "eventIndex": -1
+                                },
+                                {
+                                    "type": "Topic",
+                                    "value": "that Pope was suffering from malnutrition and high blood pressure",
+                                    "eventIndex": -1
+                                }
+                            ],
+                            "polarity": true,
+                            "eventIndex": 1
+                        }
+                    ]
+                }
+            ],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> Sayer",
+                    "start": 0,
+                    "end": 1,
+                    "text": "A spokeswoman",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "sayer",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 2,
+                    "end": 2,
+                    "text": "said",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Topic <-> Utterance",
+                    "start": 3,
+                    "end": 12,
+                    "text": "that Pope was suffering from malnutrition and high blood pressure",
+                    "pb": "A1",
+                    "vn": "Topic",
+                    "description": "utterance",
+                    "modifier": false,
+                    "predicate": false
+                }
+            ]
+        },
+        {
+            "sense": "marvel-31.3",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Emotional State[EVENT(E = VnClassXml(verbNetId=marvel-31.3)), Verbspecific(Emotion), Experiencer(A0[Pope])]",
+                        "predicateType": "Emotional State",
+                        "args": [
+                            {
+                                "type": "Verbspecific",
+                                "value": "Emotion",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Experiencer",
+                                "value": "Pope",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    },
+                    {
+                        "eventName": "E",
+                        "predicate": "In Reaction To[EVENT(E = VnClassXml(verbNetId=marvel-31.3)), Stimulus(A1[from malnutrition and high blood pressure])]",
+                        "predicateType": "In Reaction To",
+                        "args": [
+                            {
+                                "type": "Stimulus",
+                                "value": "from malnutrition and high blood pressure",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Experiencer <-> entity suffering",
+                    "start": 4,
+                    "end": 4,
+                    "text": "Pope",
+                    "pb": "A0",
+                    "vn": "Experiencer",
+                    "description": "entity suffering",
+                    "modifier": false,
+                    "predicate": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 6,
+                    "end": 6,
+                    "text": "suffering",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "modifier": false,
+                    "predicate": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Stimulus <-> malady",
+                    "start": 7,
+                    "end": 12,
+                    "text": "from malnutrition and high blood pressure",
+                    "pb": "A1",
+                    "vn": "Stimulus",
+                    "description": "malady",
+                    "modifier": false,
+                    "predicate": false
+                }
+            ]
+        }
+    ]
+}
+
+------------------------------------------------------
+SENTENCE: END_FILE
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 0,
+            "text": "END_FILE .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "modifier": false,
+            "predicate": false
+        }
+    ],
+    "props": []
+}
+
+------------------------------------------------------

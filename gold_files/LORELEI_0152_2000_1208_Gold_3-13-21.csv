@@ -1,0 +1,109 @@
+﻿#,Sentence,Event,Co-reference,Aspect
+1,The United States is hoping that Russia's President Vladimir Putin will follow the advice of his special commission and pardon Edmund Pope.,,,
+,,hope-01,,State
+,,follow-01,,Performance
+,,pardon-01,,Performance
+2,This week the American businessman began serving a 20-year prison sentence in Moscow after being convicted of spying.,,,
+,,serve-02,,Activity
+,,convict-02,,Performance
+,,spy-02,,Process
+3,Specifically Russian prosecutors charged that Pope had stolen secrets relating to a high-speed Russian torpedo.,,,
+,,charge-03,,Performance
+,,stole-03,,Performance
+4,Pope denied the charges and Washington backed him up.,,,
+,,deny-04,,Performance
+,,back_up-04,,Performance
+5,Marsha Lipman is Editor of Moscow based news magazine 'Itogi'.,,,
+,,be_editor-05,,State
+6,"Marsha, did the Presidential Pardons Commission give any reason for their decision?",,,
+,,give-06,,Performance
+,,decide-06,,Process
+7,It gave several reasons.,,,
+,,give-07,give-06,Performance
+8,"I am not sure if those were the formal reasons but members of the commission have been interviewed today by various outlets and they say that they were afraid of the spy mania rising in Russia, that they thought it was really suspicious to them that Edmund Pope was sentenced to the maximum term, whereas the article of the law had 10 to 20 years.",,,
+,,be_formal-08,,State
+,,interview-08,,Performance
+,,say-08,,Performance
+,,be_afraid-08,,State
+,,rise-08,,Activity
+,,be_suspicious-08,,State
+,,sentence-08,,Performance
+,,have-08,,State
+9,"He was sentenced to 20, even though according to the members of the Pardon Commission, the evidence that was presented by the prosecution was far from quotient.",,,
+,,sentence-09,sentence-08,Performance
+,,present-09,,Performance
+,,be_far_from_quotient-09,,State
+10,They also said this court did not give the lawyers for the defense due procedure.,,,
+,,say-10,,Performance
+,,give-10,,Performance
+11,The court listened to the defense much less than it did to the prosecution.,,,
+,,listen-11-01,,State
+,,listen-11-02,,State
+12,"Much of this sounds less like a pardon and more like a criticism of the number of institutions that Mr. Putin also has to show some support of, including his court system and his police and his prosecutors.",,,
+,,pardon-12,,Process
+,,criticize-12,,Process
+,,show-12,,Performance
+,,support-12,,Process
+13,How is he going to respond to this and when?,,,
+,,respond-13,,Performance
+14,I don't think anybody knows and I don't think anybody will know until President Putin has responded.,,,
+,,respond-14-01,respond-13,Performance
+,,respond-14-02,respond-14-01,Performance
+,,respond-14-03,respond-14-02,Performance
+15,It is his decision.,,,
+,,decide-15,,State
+16,"According to the Russian law the Pardon Commission, after it has made its decision, sends it to the President and it's up to him whether to endorse it or not to say no.",,,
+,,decide-16,,Performance
+,,send-16,,Habitual
+,,be_up_to-16,,Habitual
+,,endorse-16,,Habitual
+,,say-16,,Habitual
+17,"One last question for you, Marsha.",,,
+,,be_last-17,,State
+18,"He does have a lot to balance doesn't he, President Putin?",,,
+,,have-18,,State
+,,balance-18,,Performance
+19,Not only the institutions I mentioned but the need to keep things somehow free of tension.,,,
+,,balance-19-01,,Performance
+,,mention-19,,Performance
+,,balance-19-02,,Performance
+,,keep-19,,Performance
+20,Is this case likely to strain US-Russian relations?,,,
+,,strain-20,,Performance
+21,I'm afraid it might.,,,
+,,be_afraid-21,,State
+,,strain-21,strain-20,Performance
+22,Recently the Russian policy toward the US has fallen into a line where Russia tries to demonstrate force it once had but no longer does.,,,
+,,fall-22,,Performance
+,,try-22,,State
+,,demonstrate-22,,Performance
+,,have-22-01,,State
+,,have-22-02,,State
+23,It wants to put an end to what is regarded by the current Russian government as humiliation of the past years.,,,
+,,want-23,,State
+,,put_end-23,,Performance
+,,regard-23,,State
+,,humiliate-23,,Process
+24,"There were numerous attempts to be a source of minor troubles even though Russia can no longer be a source of scare to the west and among such instances there were several, there was just recently flying over by Russian military planes over Kitty Hawk, an American warship.",,,
+,,attempt-24,,Process
+,,be_source-24-01,,State
+,,trouble-24,,Process
+,,be_source-24-02,,State
+,,instance-24,,Process
+,,fly_over-24,,Process
+25,"There is also a scandal that erupted over Russia's declaration that it will sell weapons to Iran, contrary to the earlier made agreement.",,,
+,,scandal-25,,State
+,,declaration-25,,Process
+,,sell-25,,Performance
+,,agreement-25,,Process
+26,"Such examples are quite a few already, some of them are combined with material profits for Russia but not necessarily.",,,
+,,be_examples-26,,State
+,,combine-26,,State
+,,combine-26-02,,State
+27,Marsha Lipman is Editor of the Moscow based news magazine 'Itogi'.,,,
+,,be_editor-27,be_editor-05,State
+28,"Marsha, thank you very much for speaking with us.",,,
+,,speak-28,,Performance
+29,Pleasure.,,,
+,,be_pleasure-29,,State
+,END_FILE,,,

@@ -1,0 +1,439 @@
+{
+    "tokens": [
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 0,
+            "end": 0,
+            "text": "I",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "29.9-2",
+            "start": 1,
+            "end": 1,
+            "text": "think",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 2,
+            "end": 2,
+            "text": "there",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 1,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 3,
+            "end": 3,
+            "text": "is",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 4,
+            "end": 26,
+            "text": "every prospect such a court and its prosecutor would be highly politicized and the principal target of a court like this might well",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 2,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "51.3.1",
+            "start": 27,
+            "end": 28,
+            "text": "turn out",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 29,
+            "end": 29,
+            "text": "to",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        },
+        {
+            "index": 3,
+            "isPredicate": true,
+            "isModifier": false,
+            "label": "109-1-1",
+            "start": 30,
+            "end": 30,
+            "text": "be",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": true,
+            "modifier": false
+        },
+        {
+            "index": 0,
+            "isPredicate": false,
+            "isModifier": false,
+            "label": null,
+            "start": 31,
+            "end": 31,
+            "text": "the United States or Israel or other countries like that .",
+            "pb": null,
+            "vn": null,
+            "description": null,
+            "predicate": false,
+            "modifier": false
+        }
+    ],
+    "props": [
+        {
+            "sense": "consider-29.9-2",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Consider[EVENT(E = VnClassXml(verbNetId=consider-29.9-2)), Agent(A0[I]), Theme(A1[there is every prospect such a court and its prosecutor would be highly politicized and the principal target of a court like this might well turn out to be])]",
+                        "predicateType": "Consider",
+                        "args": [
+                            {
+                                "type": "Agent",
+                                "value": "I",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Theme",
+                                "value": "there is every prospect such a court and its prosecutor would be highly politicized and the principal target of a court like this might well turn out to be",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A0 <-> Agent <-> Thinker",
+                    "start": 0,
+                    "end": 0,
+                    "text": "I",
+                    "pb": "A0",
+                    "vn": "Agent",
+                    "description": "thinker",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 1,
+                    "end": 1,
+                    "text": "think",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> Thought",
+                    "start": 2,
+                    "end": 30,
+                    "text": "there is every prospect such a court and its prosecutor would be highly politicized and the principal target of a court like this might well turn out to be",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thought",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[every prospect such a court and its prosecutor would be highly politicized]), Attribute(?)]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "every prospect such a court and its prosecutor would be highly politicized",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 3,
+                    "end": 3,
+                    "text": "is",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 4,
+                    "end": 15,
+                    "text": "every prospect such a court and its prosecutor would be highly politicized",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "roll-51.3.1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "\u00cb",
+                "predicates": [
+                    {
+                        "eventName": "\u00cb",
+                        "predicate": "Motion[EVENT(\u00cb = VnClassXml(verbNetId=roll-51.3.1)), Theme(A1[the principal target of a court like this]), Trajectory(?)]",
+                        "predicateType": "Motion",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "the principal target of a court like this",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Trajectory",
+                                "value": "",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> thing turning",
+                    "start": 17,
+                    "end": 24,
+                    "text": "the principal target of a court like this",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "thing turning",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-MOD <-> direction, location, destination",
+                    "start": 25,
+                    "end": 25,
+                    "text": "might",
+                    "pb": "AM-MOD",
+                    "vn": "",
+                    "description": "direction, location, destination",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": true,
+                    "label": "AM-ADV <-> direction, location, destination",
+                    "start": 26,
+                    "end": 26,
+                    "text": "well",
+                    "pb": "AM-ADV",
+                    "vn": "",
+                    "description": "direction, location, destination",
+                    "predicate": false,
+                    "modifier": true
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 27,
+                    "end": 28,
+                    "text": "turn out",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "C-A1 <-> Theme <-> thing turning",
+                    "start": 29,
+                    "end": 40,
+                    "text": "to be the United States or Israel or other countries like that",
+                    "pb": "C-A1",
+                    "vn": "Theme",
+                    "description": "thing turning",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        },
+        {
+            "sense": "seem-109-1-1",
+            "mainEvent": {
+                "eventIndex": -1,
+                "name": "E",
+                "predicates": [
+                    {
+                        "eventName": "E",
+                        "predicate": "Seem[EVENT(E = VnClassXml(verbNetId=seem-109-1-1)), Theme(A1[the principal target of a court like this]), Attribute(A2[the United States or Israel or other countries like that])]",
+                        "predicateType": "Seem",
+                        "args": [
+                            {
+                                "type": "Theme",
+                                "value": "the principal target of a court like this",
+                                "eventIndex": -1
+                            },
+                            {
+                                "type": "Attribute",
+                                "value": "the United States or Israel or other countries like that",
+                                "eventIndex": -1
+                            }
+                        ],
+                        "polarity": true,
+                        "eventIndex": -1
+                    }
+                ]
+            },
+            "events": [],
+            "spans": [
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A1 <-> Theme <-> topic",
+                    "start": 17,
+                    "end": 24,
+                    "text": "the principal target of a court like this",
+                    "pb": "A1",
+                    "vn": "Theme",
+                    "description": "topic",
+                    "predicate": false,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": true,
+                    "isModifier": false,
+                    "label": "V <-> Verb",
+                    "start": 30,
+                    "end": 30,
+                    "text": "be",
+                    "pb": "V",
+                    "vn": "Verb",
+                    "description": "",
+                    "predicate": true,
+                    "modifier": false
+                },
+                {
+                    "index": 0,
+                    "isPredicate": false,
+                    "isModifier": false,
+                    "label": "A2 <-> Attribute <-> comment",
+                    "start": 31,
+                    "end": 40,
+                    "text": "the United States or Israel or other countries like that",
+                    "pb": "A2",
+                    "vn": "Attribute",
+                    "description": "comment",
+                    "predicate": false,
+                    "modifier": false
+                }
+            ]
+        }
+    ]
+}
+
