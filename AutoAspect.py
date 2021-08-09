@@ -13,9 +13,8 @@ import pandas as pd
 import re
 import json
 
-nlp = spacy.load("en_core_web_lg")
-
 #Global Variables
+nlp = spacy.load("en_core_web_lg")
 COPULA = ["is", "am", "are", "be", "been", "being", "were", "was"]
 AUX  = ["has", "have", "will", "would", "can", "could", "shall", "should"]
 VN_STATES= ["want-32.1", "long-32.2", "try-61.1", "intend-61.2", "wish-62",
@@ -33,23 +32,25 @@ VN_STATES= ["want-32.1", "long-32.2", "try-61.1", "intend-61.2", "wish-62",
 PTB_VERBS = ["VB", "VBD", "VBG", "VBN", "VBP", "VBZ"]
 
 class AutoAspect :
-    def __init__(self, filepath, semparse_filepath, semparse_json_filepath) :
+    def __init__(self, filepath, semparse_filepath, semparse_json_filepath, tac_path, parser) :
         self.gold_files = Path(filepath).rglob("*.csv")
         self.semparse_path = semparse_filepath
         self.semparse_json_path = semparse_json_filepath
-        #self.semparse_files = Path(semparse_filepath).rglob("*.txt")
+        self.tac_dict = self.extract_tac(tac_path)
+        print(self.tac_dict.keys())
+        self.parser = parser
 
     def dump(self, obj):
         for attr in dir(obj):
             print("obj.%s = %r" % (attr, getattr(obj, attr)))
 
-    def verb_loop(self, sent, vn_senses) :
+    def verb_loop(self, sent, vn_senses, filename) :
         events_hat = []
         aspects_hat = []
         step_nos = []
         root_vf = ""
         vn_idx = -1 #Start at -1, first vn_idx will be 0 at beginning of token loop
-
+        tac_verbs = self.tac_dict[filename]
         '''Step 1: Distinguishing verbs, nonverbal predication, and event nominals.'''
         doc = nlp(sent)
         verbs = []
@@ -75,28 +76,31 @@ class AutoAspect :
                 print("Verb: ", verb)
                 verbs.append(verb)
 
+                #Get TAC info.
+                ann = ""; vf_tac = ""; t = ""; a = ""
+                for v in tac_verbs :
+                    if v[0] == verb :
+                        ann = v[1]
+                        vf_tac = ann[0]; t = ann[1]; a = ann[2]
+
                 if vn_idx < len(vn_senses) :
                     vn_sense = vn_senses[vn_idx]
 
                 tag = str(token.tag_)
                 vf = self.get_vf(tag)
-                #class_id = verbnet.classids(lemma = token.lemma_)
 
-                #Store prev_class_id for Step 5
-                # if "complete-55.2" in class_id or "stop-55.4-1" in prev_class_id  :
-                    # prev_class_id = class_id
                 if "complete-55.2" in vn_senses or "stop-55.4-1" in vn_senses:
                     prev_vn_senses = vn_senses
 
-                '''Step 3a: Nonverbal predication and ability modals
+                '''Step 2a: Nonverbal predication and ability modals
                 Verbs which occur in the Simple Present cxn and the Past Habitual cxn are annotated
                 as HABITUAL.
                 '''
                 if verb in COPULA and (next_verb == False or token.dep_ == "ROOT"): #buggy on 8/4/21: helping verbs are getting this ann.
                     events_hat.append(verb)
                     aspects_hat.append("State")
-                    step_nos.append("Step 3a")
-                    print("Step 3a applied.")
+                    step_nos.append("Step 2a")
+                    print("Step 2a applied.")
                     root_vf = self.get_vf(tag)
                     continue
 
@@ -107,7 +111,7 @@ class AutoAspect :
 
                 print("Verb in Rules: ", verb)
 
-                '''Step 3b: Categorize verbs based on VerbNet class: either STATE or PROCESS'''
+                '''Step 2b: Categorize verbs based on VerbNet class: either STATE or PROCESS'''
                 # print("class_id: ", class_id)
                 events_hat.append(verb)
 
@@ -115,23 +119,39 @@ class AutoAspect :
                 #print("vn_sense in VN_STATES: ", vn_sense in VN_STATES)
                 print("vn_senses: ", vn_senses)
                 print("vn_sense: ", vn_sense)
+                spacy_step_3 = vf == "3_sing_pres" or vf == "12_sing_pres" or (verb.lower() == token.lemma_ and root_vf == "simple_past")
+                tac_step_3 = vf_tac == "v" and t == "n" and a == "-" 
+                step_3_bool = None
+                if self.parser == "tac" and len(ann) > 0:
+                    step_3_bool = tac_step_3
+                else :
+                    step_3_bool = spacy_step_3
+
                 if any(re.search(vn, vn_sense) != None for vn in VN_STATES):
                     aspects_hat.append("State")
-                    step_nos.append("Step 3b")
-                    print("Step 3b applied.")
-                elif vf == "3_sing_pres" or vf == "12_sing_pres" or (verb.lower() == token.lemma_ and root_vf == "simple_past") :
+                    step_nos.append("Step 2b")
+                    print("Step 2b applied.")
+                elif step_3_bool :
                     aspects_hat.append("Habitual")
-                    step_nos.append("Step 2")
-                    print("Step 2 applied.")
+                    step_nos.append("Step 3")
+                    print("Step 3 applied.")
                 else : #PROCESS verb -> move on to Step 4
                     '''Step 4: Activity Annotation
                     Verbs that occur in the present progressive, present perfect progressive and past progressive
                     are annotated as ACTIVITY. Verbs which occur with inceptive (VN class begin-55.1
                     and continuative (VN class continue-55.3, sustain-55.6) aspectual auxiliaries are
                     also annotated as ACTIVITY.'''
-                    if vf == "gerund" or "begin-55.1" == vn_sense \
-                    or "continue-55.3" == vn_sense or "sustain-55.6" == vn_sense \
-                    or prev_token == "being" :
+                    spacy_step_4 = vf == "ppl" or "begin-55.1" == vn_sense \
+                        or "continue-55.3" == vn_sense or "sustain-55.6" == vn_sense \
+                        or prev_token == "being"
+                    tac_step_4 = vf_tac == "v" and (t == "p" or t == "n") and (a == "p" or a == "b")
+                    step_4_bool = None
+                    if self.parser == "tac" and len(ann) > 0:
+                        step_4_bool = tac_step_4
+                    else :
+                        step_4_bool = spacy_step_4
+                            
+                    if step_4_bool:
                         aspects_hat.append("Activity")
                         step_nos.append("Step 4")
                         print("Step 4 applied.")
@@ -150,16 +170,23 @@ class AutoAspect :
                         continue
 
                     '''Step 6: Adverbials'''
-                    prep = self.prep_search(doc)
-                    if prep == "in" :
+                    prep_6 = self.prep_search_6(doc)
+                    if prep_6 == "in" :
                         aspects_hat.append("Performance")
                         step_nos.append("Step 6")
                         print("Step 6 applied.")
                         continue
-                    elif prep == "for" :
+                    elif prep_6 == "for" :
                         aspects_hat.append("Endeavor")
                         step_nos.append("Step 6")
                         print("Step 6 applied.")
+                        continue
+
+                    prep_7 = self.prep_search_7(doc)
+                    if prep_7 == "around" or prep_7 == "along" or prep_7 == "past" :
+                        aspects_hat.append("Endeavor")
+                        step_nos.append("Step 7")
+                        print("Step 7 applied.")
                         continue
 
                     '''Step 8: Everything else is annotated as PERFORMANCE.'''
@@ -271,7 +298,7 @@ class AutoAspect :
         print("\n")
         return (events, aspects, steps) #tuple
         
-    def apply_rules(self, sent, sent_idx, events, aspects, vn_senses, sent_vn_nominals_tuple) :
+    def apply_rules(self, sent, sent_idx, events, aspects, vn_senses, sent_vn_nominals_tuple, filename) :
         #events and aspects are the gold data. I'm creating events_hat and aspects_hat
         assert (len(events) == len(aspects)), "Unequal number of events and aspects!"
         print("sent_idx: ", sent_idx)
@@ -280,7 +307,7 @@ class AutoAspect :
         aspects_hat = []
         step_nos = []
 
-        events_hat, aspects_hat, step_nos = self.verb_loop(sent, vn_senses)
+        events_hat, aspects_hat, step_nos = self.verb_loop(sent, vn_senses, filename)
         (event_nominals_hat, aspect_nominals_hat, step_nos_nominals) = sent_vn_nominals_tuple
 
         #Python 3.5> List Concatenation: https://stackoverflow.com/questions/1720421/how-do-i-concatenate-two-lists-in-python
@@ -292,10 +319,43 @@ class AutoAspect :
 
         return {'Sentence':sent, 'Gold Events':events, 'Gold Aspects':aspects, 'Events':events_hat, 'Auto Aspect':aspects_hat, 'Step #': step_nos}
 
-    def prep_search(self, doc):
-        for token in doc :
-            if token.dep_ == "prep" :
-                return token.text
+    def prep_search_6(self, doc):
+        '''
+        Returns the preposition "in" or "for", if they are part of 
+        a container or  durative adverbial clause, respectively.
+
+        Otherwise, returns None.
+        Source: https://stackoverflow.com/questions/49292321/how-can-i-get-children-of-an-ancestor-using-spacy-dependency-tree-in-python
+        '''
+        #deplacy.render(doc)
+
+        for token in doc:
+            if token.dep_ == "prep": 
+                for a in token.ancestors:
+                    print("a: ", a.text)
+                    print("a.dep: ", a.dep_)
+                    if a.dep_ == "ROOT" :
+                        return token.text.lower()
+        return None
+
+    def prep_search_7(self, doc):
+        '''
+        Returns prepositions that occur immediately after their verb (i.e. there is no result path).
+        '''
+        #deplacy.render(doc)
+
+        prev_verb = None
+        tokens_in_btwn = 0
+        for token in doc:
+            tokens_in_btwn += 1
+            if token.pos_ == "VERB" :
+                prev_verb = token.text
+                tokens_in_btwn = 0
+            if token.dep_ == "prep": 
+                print("tokens_in_btwn: ", tokens_in_btwn)
+                if prev_verb != None and tokens_in_btwn == 1: #must be the immediate next token
+                    return token.text.lower()
+        return None
 
     def get_vf(self, tag) :
         #Extract appropriate tense from Penn Treebank Tag
@@ -304,59 +364,15 @@ class AutoAspect :
             vf = "base"
         elif tag == "VBD" :
             vf = "simple_past"
-        elif tag == "VBG" :
-            vf = "gerund"
-        elif tag == "VBN" :
-            vf = "past_ppl"
+        elif tag == "VBG" or tag == "VBN" :
+            vf = "ppl"
         elif tag == "VBP" :
             vf = "12_sing_pres"
         elif tag == "VBZ" :
             vf = "3_sing_pres" #SIMPLE PRESENT
 
         return vf
-
-    def check_habitual(self, sent) :
-        doc = nlp(sent)
-        keys = []
-        root_tag = ""
-        root_vf = ""
-        
-        habituals = []
-
-        for token in doc :
-            text = token.text.strip()
-            children = dict()
-
-            #STORE ROOT INFORMATION.
-            if token.dep_ == "ROOT" :
-                for c in list(token.children):
-                    c = str(c)
-                    c = c.strip()
-                    children[c] = 0
-
-                root_tag = str(token.tag_)
-                print(f"main children of ROOT verb {token.text} : {children}")
-                keys = children.keys()
-
-            if token.pos_ == "VERB" :
-                print("Verb:", text)
-                tag = str(token.tag_)
-
-                #Extract appropriate tense from Penn Treebank Tag
-                print("PTB Tag: ", tag)
-                vf = self.get_vf(tag)
-
-                if vf == "base" and text in keys :
-                    root_vf = self.get_vf(root_tag)
-
-                print("vf: ",vf)
-                print("root_vf: ", root_vf)
-
-                if vf == "3_sing_pres" or vf == "12_sing_pres" or root_vf == "simple_past" : #SIMPLE PAST
-                    habituals.append(text)
-
-        return habituals
-
+    
     def read_semparse_files(self, filename) :
         vn_semparse = []
         for file in Path(self.semparse_path).rglob("*.txt"):
@@ -377,6 +393,31 @@ class AutoAspect :
                         vn_semparse.append(vn_senses)
                 break
         return vn_semparse
+    
+    def extract_tac(self, filepath) :
+        '''
+        outputs a dictionary
+        '''
+        tac_dict = {}
+        with open(filepath) as tac_file :
+            lines = tac_file.readlines()
+            filename = ""
+            file_values = []
+            for line in lines :
+                if line[:7] == "LORELEI" :
+                    line = re.sub("NW_PRI_ENG_", "", line)
+                    filename = re.sub(".tsv", "_Gold_3-13-21", line)
+                    filename = re.sub("\n", "", filename)
+                else :
+                    if re.search("---", line) != None :
+                        tac_dict[filename] = file_values
+                        filename = ""
+                        file_values = []
+                    else:
+                        temp = line.split()
+                        tac_tuple = (temp[0], temp[1])
+                        file_values += tac_tuple
+        return tac_dict
 
     def run_auto_aspect(self) :
         for file in self.gold_files:
@@ -435,17 +476,10 @@ class AutoAspect :
                 #MAIN CODE (running tests)
                 vn_senses = vn_semparse[vn_idx]
                 vn_idx += 1
-                sent_dict = self.apply_rules(theSent, sent_idx, events, aspects, vn_senses, vn_nominals)
+                sent_dict = self.apply_rules(theSent, sent_idx, events, aspects, vn_senses, vn_nominals, filename)
                 print(sent_dict)
                 rows_list.append(sent_dict)
                 print("--------------------------------------------------------------------")
             output_df = pd.DataFrame(rows_list)
             output_df = output_df.reindex(columns=col_list)
             output_df.to_excel(file.name[:-4] + ".xlsx")
-
-if __name__ == "__main__" :
-    gold_path = "gold_files"
-    semparse_path = "LORELEI_semparse"
-    semparse_json_path = "LORELEI_semparse_json_cleaned"
-    parser = AutoAspect(gold_path, semparse_path, semparse_json_path)
-    parser.run_auto_aspect()
